@@ -66,6 +66,10 @@ This repository is preparation material, not an official starter kit or a ready-
 
 Timing reports measure policy calls on the current machine; they do not enforce timeouts, isolate processes, or establish compliance on organizer hardware. The practice engine uses net chips, not the event's finishing-position/ICM scoring.
 
+## Trained preflop baselines
+
+[First model results](PREFLOP_RESULTS.md): logistic regression, decision tree and boosted trees trained on cleaned PokerBench data with public-history group splits. Includes accuracy, action coverage and single-hand latency; this is not a tournament-ready policy.
+
 ## Datasets for algorithm experiments
 
 See [DATASETS.md](DATASETS.md) for a ranked source review, a full PokerBench CSV audit, and a replay-validated Pluribus sample. The audit identifies future-card leakage and train/test overlap before model fitting.

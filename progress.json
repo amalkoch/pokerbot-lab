@@ -52,5 +52,14 @@
     "pluribus_hands_replayed": 71,
     "tests_passed": 23,
     "report": "DATASETS.md"
+  },
+  "preflop_milestone": {
+    "date": "2026-10-28",
+    "clean_examples": 30586,
+    "grouped_test_examples": 4512,
+    "selected": "boosted_trees",
+    "exact_test_accuracy": 0.9168882978723404,
+    "tests_passed": 28,
+    "report": "PREFLOP_RESULTS.md"
   }
 }

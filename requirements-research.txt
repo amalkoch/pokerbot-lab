@@ -1,3 +1,4 @@
 # Python 3.11+; offline research tools, not competition runtime requirements.
 open_spiel==2.0.2
 pokerkit==0.7.7
+scikit-learn==1.9.1

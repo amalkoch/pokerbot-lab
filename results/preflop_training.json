@@ -1,0 +1,789 @@
+{
+  "seed": 42,
+  "dataset_revision": "7ac61f961c81a50fc0f667820b2fb0e432dfec0d",
+  "cleaning": {
+    "input_rows": 63200,
+    "canonical_observations": 30612,
+    "conflicting_groups": 26,
+    "quarantined_rows": 230,
+    "clean_rows": 30586
+  },
+  "external_cleaning": {
+    "input_rows": 1000,
+    "canonical_observations": 786,
+    "conflicting_groups": 2,
+    "quarantined_rows": 4,
+    "clean_rows": 784
+  },
+  "external_rows_after_train_overlap_removal": 174,
+  "environment": {
+    "python": "3.11.15",
+    "sklearn": "1.9.1"
+  },
+  "split": {
+    "train": {
+      "rows": 21616,
+      "public_action_lines": 1535
+    },
+    "validation": {
+      "rows": 4458,
+      "public_action_lines": 329
+    },
+    "test": {
+      "rows": 4512,
+      "public_action_lines": 330
+    }
+  },
+  "models": {
+    "majority_legal": {
+      "fit_seconds": 0.01111629232764244,
+      "fit_warnings": [],
+      "validation": {
+        "hands": 4458,
+        "exact_accuracy": 0.8079856437864513,
+        "family_accuracy": 0.8079856437864513,
+        "family_macro_f1": 0.17875930521091812,
+        "outside_supplied_menu": 0,
+        "target_family_counts": {
+          "raise": 202,
+          "call": 654,
+          "fold": 3602
+        },
+        "per_family": {
+          "fold": {
+            "precision": 0.8079856437864513,
+            "recall": 1.0,
+            "f1-score": 0.8937965260545906,
+            "support": 3602.0
+          },
+          "check": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "call": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 654.0
+          },
+          "raise": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 202.0
+          },
+          "allin": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.8079856437864513,
+          "macro avg": {
+            "precision": 0.16159712875729026,
+            "recall": 0.2,
+            "f1-score": 0.17875930521091812,
+            "support": 4458.0
+          },
+          "weighted avg": {
+            "precision": 0.6528408005650063,
+            "recall": 0.8079856437864513,
+            "f1-score": 0.7221747615183121,
+            "support": 4458.0
+          }
+        }
+      },
+      "grouped_test": {
+        "hands": 4512,
+        "exact_accuracy": 0.7972074468085106,
+        "family_accuracy": 0.7972074468085106,
+        "family_macro_f1": 0.17743248242693305,
+        "outside_supplied_menu": 0,
+        "target_family_counts": {
+          "fold": 3597,
+          "call": 620,
+          "check": 58,
+          "raise": 237
+        },
+        "per_family": {
+          "fold": {
+            "precision": 0.7972074468085106,
+            "recall": 1.0,
+            "f1-score": 0.8871624121346652,
+            "support": 3597.0
+          },
+          "check": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 58.0
+          },
+          "call": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 620.0
+          },
+          "raise": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 237.0
+          },
+          "allin": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.7972074468085106,
+          "macro avg": {
+            "precision": 0.15944148936170213,
+            "recall": 0.2,
+            "f1-score": 0.17743248242693305,
+            "support": 4512.0
+          },
+          "weighted avg": {
+            "precision": 0.6355397132469444,
+            "recall": 0.7972074468085106,
+            "f1-score": 0.7072524814823561,
+            "support": 4512.0
+          }
+        }
+      },
+      "external_test": {
+        "hands": 174,
+        "exact_accuracy": 0.9367816091954023,
+        "family_accuracy": 0.9367816091954023,
+        "family_macro_f1": 0.19347181008902076,
+        "outside_supplied_menu": 0,
+        "target_family_counts": {
+          "fold": 163,
+          "check": 11
+        },
+        "per_family": {
+          "fold": {
+            "precision": 0.9367816091954023,
+            "recall": 1.0,
+            "f1-score": 0.9673590504451038,
+            "support": 163.0
+          },
+          "check": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 11.0
+          },
+          "call": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "raise": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "allin": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.9367816091954023,
+          "macro avg": {
+            "precision": 0.18735632183908046,
+            "recall": 0.2,
+            "f1-score": 0.19347181008902076,
+            "support": 174.0
+          },
+          "weighted avg": {
+            "precision": 0.8775597833267275,
+            "recall": 0.9367816091954023,
+            "f1-score": 0.9062041679457007,
+            "support": 174.0
+          }
+        }
+      },
+      "latency": {
+        "samples": 1000,
+        "p50_us": 36.4795,
+        "p99_us": 82.75375,
+        "max_us": 106.542,
+        "over_1ms": 0,
+        "scope": "Warm single-hand feature extraction, candidate scoring and selection; one CPU thread; excludes process/JSON loading."
+      }
+    },
+    "logistic": {
+      "fit_seconds": 0.08210745779797435,
+      "fit_warnings": [],
+      "validation": {
+        "hands": 4458,
+        "exact_accuracy": 0.8079856437864513,
+        "family_accuracy": 0.8079856437864513,
+        "family_macro_f1": 0.17875930521091812,
+        "outside_supplied_menu": 0,
+        "target_family_counts": {
+          "raise": 202,
+          "call": 654,
+          "fold": 3602
+        },
+        "per_family": {
+          "fold": {
+            "precision": 0.8079856437864513,
+            "recall": 1.0,
+            "f1-score": 0.8937965260545906,
+            "support": 3602.0
+          },
+          "check": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "call": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 654.0
+          },
+          "raise": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 202.0
+          },
+          "allin": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.8079856437864513,
+          "macro avg": {
+            "precision": 0.16159712875729026,
+            "recall": 0.2,
+            "f1-score": 0.17875930521091812,
+            "support": 4458.0
+          },
+          "weighted avg": {
+            "precision": 0.6528408005650063,
+            "recall": 0.8079856437864513,
+            "f1-score": 0.7221747615183121,
+            "support": 4458.0
+          }
+        }
+      },
+      "grouped_test": {
+        "hands": 4512,
+        "exact_accuracy": 0.7956560283687943,
+        "family_accuracy": 0.7956560283687943,
+        "family_macro_f1": 0.17851815017404277,
+        "outside_supplied_menu": 0,
+        "target_family_counts": {
+          "fold": 3597,
+          "call": 620,
+          "check": 58,
+          "raise": 237
+        },
+        "per_family": {
+          "fold": {
+            "precision": 0.8072858106588712,
+            "recall": 0.9980539338337503,
+            "f1-score": 0.8925907508702138,
+            "support": 3597.0
+          },
+          "check": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 58.0
+          },
+          "call": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 620.0
+          },
+          "raise": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 237.0
+          },
+          "allin": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.7956560283687943,
+          "macro avg": {
+            "precision": 0.16145716213177425,
+            "recall": 0.19961078676675006,
+            "f1-score": 0.17851815017404277,
+            "support": 4512.0
+          },
+          "weighted avg": {
+            "precision": 0.6435742599600974,
+            "recall": 0.7956560283687943,
+            "f1-score": 0.7115799935461344,
+            "support": 4512.0
+          }
+        }
+      },
+      "external_test": {
+        "hands": 174,
+        "exact_accuracy": 0.9367816091954023,
+        "family_accuracy": 0.9367816091954023,
+        "family_macro_f1": 0.2,
+        "outside_supplied_menu": 0,
+        "target_family_counts": {
+          "fold": 163,
+          "check": 11
+        },
+        "per_family": {
+          "fold": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 163.0
+          },
+          "check": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 11.0
+          },
+          "call": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "raise": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "allin": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.9367816091954023,
+          "macro avg": {
+            "precision": 0.2,
+            "recall": 0.2,
+            "f1-score": 0.2,
+            "support": 174.0
+          },
+          "weighted avg": {
+            "precision": 0.9367816091954023,
+            "recall": 0.9367816091954023,
+            "f1-score": 0.9367816091954023,
+            "support": 174.0
+          }
+        }
+      },
+      "latency": {
+        "samples": 1000,
+        "p50_us": 127.104,
+        "p99_us": 175.73009,
+        "max_us": 238.417,
+        "over_1ms": 0,
+        "scope": "Warm single-hand feature extraction, candidate scoring and selection; one CPU thread; excludes process/JSON loading."
+      }
+    },
+    "decision_tree": {
+      "fit_seconds": 0.09368383279070258,
+      "fit_warnings": [],
+      "validation": {
+        "hands": 4458,
+        "exact_accuracy": 0.9201435621354868,
+        "family_accuracy": 0.9201435621354868,
+        "family_macro_f1": 0.5007507847846493,
+        "outside_supplied_menu": 0,
+        "target_family_counts": {
+          "raise": 202,
+          "call": 654,
+          "fold": 3602
+        },
+        "per_family": {
+          "fold": {
+            "precision": 0.9465648854961832,
+            "recall": 0.9639089394780678,
+            "f1-score": 0.9551581843191197,
+            "support": 3602.0
+          },
+          "check": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "call": {
+            "precision": 0.776,
+            "recall": 0.7415902140672783,
+            "f1-score": 0.7584050039093041,
+            "support": 654.0
+          },
+          "raise": {
+            "precision": 0.8787878787878788,
+            "recall": 0.7178217821782178,
+            "f1-score": 0.7901907356948229,
+            "support": 202.0
+          },
+          "allin": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.9201435621354868,
+          "macro avg": {
+            "precision": 0.5202705528568125,
+            "recall": 0.48466418714471277,
+            "f1-score": 0.5007507847846493,
+            "support": 4458.0
+          },
+          "weighted avg": {
+            "precision": 0.918471482519606,
+            "recall": 0.9201435621354868,
+            "f1-score": 0.9188190177399076,
+            "support": 4458.0
+          }
+        }
+      },
+      "grouped_test": {
+        "hands": 4512,
+        "exact_accuracy": 0.9142287234042553,
+        "family_accuracy": 0.9142287234042553,
+        "family_macro_f1": 0.5852917567823611,
+        "outside_supplied_menu": 0,
+        "target_family_counts": {
+          "fold": 3597,
+          "call": 620,
+          "check": 58,
+          "raise": 237
+        },
+        "per_family": {
+          "fold": {
+            "precision": 0.9485698569856986,
+            "recall": 0.9588546010564359,
+            "f1-score": 0.953684501589935,
+            "support": 3597.0
+          },
+          "check": {
+            "precision": 0.9444444444444444,
+            "recall": 0.29310344827586204,
+            "f1-score": 0.4473684210526316,
+            "support": 58.0
+          },
+          "call": {
+            "precision": 0.8133802816901409,
+            "recall": 0.7451612903225806,
+            "f1-score": 0.7777777777777778,
+            "support": 620.0
+          },
+          "raise": {
+            "precision": 0.6793103448275862,
+            "recall": 0.8312236286919831,
+            "f1-score": 0.7476280834914611,
+            "support": 237.0
+          },
+          "allin": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.9142287234042553,
+          "macro avg": {
+            "precision": 0.677140985589574,
+            "recall": 0.5656685936693723,
+            "f1-score": 0.5852917567823611,
+            "support": 4512.0
+          },
+          "weighted avg": {
+            "precision": 0.9157969591594328,
+            "recall": 0.9142287234042553,
+            "f1-score": 0.912180983743295,
+            "support": 4512.0
+          }
+        }
+      },
+      "external_test": {
+        "hands": 174,
+        "exact_accuracy": 0.9252873563218391,
+        "family_accuracy": 0.9252873563218391,
+        "family_macro_f1": 0.32061128526645766,
+        "outside_supplied_menu": 0,
+        "target_family_counts": {
+          "fold": 163,
+          "check": 11
+        },
+        "per_family": {
+          "fold": {
+            "precision": 1.0,
+            "recall": 0.9570552147239264,
+            "f1-score": 0.9780564263322884,
+            "support": 163.0
+          },
+          "check": {
+            "precision": 1.0,
+            "recall": 0.45454545454545453,
+            "f1-score": 0.625,
+            "support": 11.0
+          },
+          "call": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "raise": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "allin": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.9252873563218391,
+          "macro avg": {
+            "precision": 0.4,
+            "recall": 0.2823201338538762,
+            "f1-score": 0.32061128526645766,
+            "support": 174.0
+          },
+          "weighted avg": {
+            "precision": 1.0,
+            "recall": 0.9252873563218391,
+            "f1-score": 0.9557367671963392,
+            "support": 174.0
+          }
+        }
+      },
+      "latency": {
+        "samples": 1000,
+        "p50_us": 67.8955,
+        "p99_us": 116.12583,
+        "max_us": 138.875,
+        "over_1ms": 0,
+        "scope": "Warm single-hand feature extraction, candidate scoring and selection; one CPU thread; excludes process/JSON loading."
+      }
+    },
+    "boosted_trees": {
+      "fit_seconds": 1.7330967499874532,
+      "fit_warnings": [],
+      "validation": {
+        "hands": 4458,
+        "exact_accuracy": 0.9255271422162404,
+        "family_accuracy": 0.9255271422162404,
+        "family_macro_f1": 0.5050601547447308,
+        "outside_supplied_menu": 0,
+        "target_family_counts": {
+          "raise": 202,
+          "call": 654,
+          "fold": 3602
+        },
+        "per_family": {
+          "fold": {
+            "precision": 0.9413654618473896,
+            "recall": 0.9761243753470294,
+            "f1-score": 0.9584298759711054,
+            "support": 3602.0
+          },
+          "check": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "call": {
+            "precision": 0.824468085106383,
+            "recall": 0.7110091743119266,
+            "f1-score": 0.7635467980295566,
+            "support": 654.0
+          },
+          "raise": {
+            "precision": 0.9119496855345912,
+            "recall": 0.7178217821782178,
+            "f1-score": 0.8033240997229917,
+            "support": 202.0
+          },
+          "allin": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.9255271422162404,
+          "macro avg": {
+            "precision": 0.5355566464976728,
+            "recall": 0.48099106636743477,
+            "f1-score": 0.5050601547447308,
+            "support": 4458.0
+          },
+          "weighted avg": {
+            "precision": 0.922883436005352,
+            "recall": 0.9255271422162404,
+            "f1-score": 0.922811908322857,
+            "support": 4458.0
+          }
+        }
+      },
+      "grouped_test": {
+        "hands": 4512,
+        "exact_accuracy": 0.9168882978723404,
+        "family_accuracy": 0.9168882978723404,
+        "family_macro_f1": 0.4927053525426771,
+        "outside_supplied_menu": 0,
+        "target_family_counts": {
+          "fold": 3597,
+          "call": 620,
+          "check": 58,
+          "raise": 237
+        },
+        "per_family": {
+          "fold": {
+            "precision": 0.946825827455236,
+            "recall": 0.9702529886016125,
+            "f1-score": 0.9583962652752986,
+            "support": 3597.0
+          },
+          "check": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 58.0
+          },
+          "call": {
+            "precision": 0.8439201451905626,
+            "recall": 0.75,
+            "f1-score": 0.7941929974380871,
+            "support": 620.0
+          },
+          "raise": {
+            "precision": 0.6618181818181819,
+            "recall": 0.7679324894514767,
+            "f1-score": 0.7109375,
+            "support": 237.0
+          },
+          "allin": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.9168882978723404,
+          "macro avg": {
+            "precision": 0.49051283089279607,
+            "recall": 0.49763709561061786,
+            "f1-score": 0.4927053525426771,
+            "support": 4512.0
+          },
+          "weighted avg": {
+            "precision": 0.9055438609187815,
+            "recall": 0.9168882978723404,
+            "f1-score": 0.9105148963002799,
+            "support": 4512.0
+          }
+        }
+      },
+      "external_test": {
+        "hands": 174,
+        "exact_accuracy": 0.9080459770114943,
+        "family_accuracy": 0.9080459770114943,
+        "family_macro_f1": 0.19688473520249222,
+        "outside_supplied_menu": 0,
+        "target_family_counts": {
+          "fold": 163,
+          "check": 11
+        },
+        "per_family": {
+          "fold": {
+            "precision": 1.0,
+            "recall": 0.9693251533742331,
+            "f1-score": 0.9844236760124611,
+            "support": 163.0
+          },
+          "check": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 11.0
+          },
+          "call": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "raise": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "allin": {
+            "precision": 0.0,
+            "recall": 0.0,
+            "f1-score": 0.0,
+            "support": 0.0
+          },
+          "accuracy": 0.9080459770114943,
+          "macro avg": {
+            "precision": 0.2,
+            "recall": 0.19386503067484662,
+            "f1-score": 0.19688473520249222,
+            "support": 174.0
+          },
+          "weighted avg": {
+            "precision": 0.9367816091954023,
+            "recall": 0.9080459770114943,
+            "f1-score": 0.9221899953450067,
+            "support": 174.0
+          }
+        }
+      },
+      "latency": {
+        "samples": 1000,
+        "p50_us": 239.063,
+        "p99_us": 634.3140799999998,
+        "max_us": 1309.125,
+        "over_1ms": 4,
+        "scope": "Warm single-hand feature extraction, candidate scoring and selection; one CPU thread; excludes process/JSON loading."
+      }
+    }
+  },
+  "source_sha256": {
+    "train": "5786fe9b2e34b593cd68e9c426cfce1a0ca845d0c45a27e8471ef3ad38657e69",
+    "test": "38710b92bbefbaa881c8b16e0d617152dc3606866ed9a88b3687b1194f2203e5"
+  },
+  "notes": [
+    "Rank only supplied legal candidates; legality is by construction, not simulator validation.",
+    "Group split uses exact public action histories, not semantic bet-size equivalence.",
+    "External test removes canonical train overlap but may share public histories.",
+    "Macro-F1 averages the fixed five action families, including zero-support families.",
+    "No hyperparameter search; choose on validation exact accuracy, then evaluate all fixed models once.",
+    "This is solver-label imitation, not a measured poker win rate."
+  ],
+  "selected_by_validation": "boosted_trees",
+  "saved_model": {
+    "path": "data/models/preflop.joblib",
+    "bytes": 196000,
+    "sha256": "9659e2b786fecd17a33d058aa71b746fabf6f3c0bc7d715322a512c1d0779a7a"
+  }
+}

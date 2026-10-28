@@ -1,8 +1,13 @@
 absl-py==2.5.1
 attrs==26.1.0
+cloudpickle==3.1.2
+joblib==1.6.0
 ml_collections==1.1.0
+narwhals==2.28.0
 numpy==2.4.6
 open-spiel==2.0.2
 pokerkit==0.7.7
 PyYAML==6.0.3
+scikit-learn==1.9.1
 scipy==1.17.1
+threadpoolctl==3.7.0
