@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-28",
+  "milestone": "Offline Kuhn practice arena",
+  "validation": {
+    "unit_tests_passed": 7,
+    "matches": [
+      {
+        "agent": "mixed",
+        "opponent": "cautious",
+        "hands": 10000,
+        "seed": 42,
+        "chips_per_hand": -0.0048
+      },
+      {
+        "agent": "mixed",
+        "opponent": "calling",
+        "hands": 10000,
+        "seed": 42,
+        "chips_per_hand": 0.2272
+      }
+    ],
+    "invalid_actions": 0
+  },
+  "next": "Benchmark all baselines over held-out seeds; analyze why opponent behavior changes the result.",
+  "official_submission": false,
+  "remote_status": "See GitHub commit history; initial upload uses browser UI, with history separate from local initial commit."
+}
