@@ -1,0 +1,5212 @@
+[
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 0,
+    "trained_seat": 0,
+    "chance_seed": 1000042,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 0][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 0,
+    "trained_seat": 1,
+    "chance_seed": 1000042,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 0][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 1,
+    "trained_seat": 0,
+    "chance_seed": 1000043,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 1,
+    "trained_seat": 1,
+    "chance_seed": 1000043,
+    "returns": [
+      -3.0,
+      3.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 2,
+    "trained_seat": 0,
+    "chance_seed": 1000044,
+    "returns": [
+      11.0,
+      -11.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 0][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 2][Player: 1][Pot: 10][Money: 93 97][Public: 0][Round1: 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 2][Player: 0][Pot: 18][Money: 93 89][Public: 0][Round1: 2 1][Round2: 2 2]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 2,
+    "trained_seat": 1,
+    "chance_seed": 1000044,
+    "returns": [
+      3.0,
+      -3.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 0][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 2][Player: 1][Pot: 6][Money: 97 97][Public: 0][Round1: 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 3,
+    "trained_seat": 0,
+    "chance_seed": 1000045,
+    "returns": [
+      5.0,
+      -5.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 1][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 2][Player: 1][Pot: 10][Money: 95 95][Public: 1][Round1: 2 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 3,
+    "trained_seat": 1,
+    "chance_seed": 1000045,
+    "returns": [
+      5.0,
+      -5.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 1][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 2][Player: 1][Pot: 14][Money: 91 95][Public: 1][Round1: 2 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 4,
+    "trained_seat": 0,
+    "chance_seed": 1000046,
+    "returns": [
+      1.0,
+      -1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 4,
+    "trained_seat": 1,
+    "chance_seed": 1000046,
+    "returns": [
+      1.0,
+      -1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 2][Money: 99 99][Public: 1][Round1: 1 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 2][Player: 1][Pot: 6][Money: 95 99][Public: 1][Round1: 1 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 5,
+    "trained_seat": 0,
+    "chance_seed": 1000047,
+    "returns": [
+      0.0,
+      0.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 2][Money: 99 99][Public: 2][Round1: 1 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 2][Player: 1][Pot: 2][Money: 99 99][Public: 2][Round1: 1 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 5,
+    "trained_seat": 1,
+    "chance_seed": 1000047,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 6,
+    "trained_seat": 0,
+    "chance_seed": 1000048,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 6,
+    "trained_seat": 1,
+    "chance_seed": 1000048,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 7,
+    "trained_seat": 0,
+    "chance_seed": 1000049,
+    "returns": [
+      1.0,
+      -1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 7,
+    "trained_seat": 1,
+    "chance_seed": 1000049,
+    "returns": [
+      3.0,
+      -3.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 3][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 2][Player: 1][Pot: 6][Money: 97 97][Public: 3][Round1: 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 8,
+    "trained_seat": 0,
+    "chance_seed": 1000050,
+    "returns": [
+      1.0,
+      -1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 2][Player: 0][Pot: 2][Money: 99 99][Public: 4][Round1: 1 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 2][Player: 1][Pot: 6][Money: 95 99][Public: 4][Round1: 1 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 8,
+    "trained_seat": 1,
+    "chance_seed": 1000050,
+    "returns": [
+      0.0,
+      0.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 8][Money: 95 97][Round1: 1 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 4][Round1: 1 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 2][Player: 1][Pot: 10][Money: 95 95][Public: 4][Round1: 1 2 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 9,
+    "trained_seat": 0,
+    "chance_seed": 1000051,
+    "returns": [
+      1.0,
+      -1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "uniform",
+    "pair": 9,
+    "trained_seat": 1,
+    "chance_seed": 1000051,
+    "returns": [
+      1.0,
+      -1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 2][Money: 99 99][Public: 4][Round1: 1 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 2][Player: 1][Pot: 2][Money: 99 99][Public: 4][Round1: 1 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 0,
+    "trained_seat": 0,
+    "chance_seed": 11000042,
+    "returns": [
+      7.0,
+      -7.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 2][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 2][Player: 1][Pot: 10][Money: 93 97][Public: 2][Round1: 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 0,
+    "trained_seat": 1,
+    "chance_seed": 11000042,
+    "returns": [
+      1.0,
+      -1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 2][Player: 0][Pot: 2][Money: 99 99][Public: 2][Round1: 1 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 2][Player: 1][Pot: 2][Money: 99 99][Public: 2][Round1: 1 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 1,
+    "trained_seat": 0,
+    "chance_seed": 11000043,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 2][Money: 99 99][Public: 3][Round1: 1 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 2][Money: 99 99][Public: 3][Round1: 1 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 1,
+    "trained_seat": 1,
+    "chance_seed": 11000043,
+    "returns": [
+      -7.0,
+      7.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 3][Round1: 1 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 6][Money: 97 97][Public: 3][Round1: 1 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 10][Money: 97 93][Public: 3][Round1: 1 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 2,
+    "trained_seat": 0,
+    "chance_seed": 11000044,
+    "returns": [
+      -3.0,
+      3.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 0][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 2][Player: 1][Pot: 6][Money: 97 97][Public: 0][Round1: 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 2,
+    "trained_seat": 1,
+    "chance_seed": 11000044,
+    "returns": [
+      -5.0,
+      5.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 2][Player: 0][Pot: 2][Money: 99 99][Public: 0][Round1: 1 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 2][Player: 1][Pot: 2][Money: 99 99][Public: 0][Round1: 1 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 2][Player: 0][Pot: 6][Money: 99 95][Public: 0][Round1: 1 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 3,
+    "trained_seat": 0,
+    "chance_seed": 11000045,
+    "returns": [
+      3.0,
+      -3.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 5][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 2][Player: 1][Pot: 6][Money: 97 97][Public: 5][Round1: 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 3,
+    "trained_seat": 1,
+    "chance_seed": 11000045,
+    "returns": [
+      7.0,
+      -7.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 5][Round1: 1 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 2][Player: 1][Pot: 6][Money: 97 97][Public: 5][Round1: 1 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 2][Player: 0][Pot: 10][Money: 97 93][Public: 5][Round1: 1 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 4,
+    "trained_seat": 0,
+    "chance_seed": 11000046,
+    "returns": [
+      3.0,
+      -3.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 0][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 4][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 0][Round 2][Player: 1][Pot: 6][Money: 97 97][Public: 4][Round1: 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 4,
+    "trained_seat": 1,
+    "chance_seed": 11000046,
+    "returns": [
+      1.0,
+      -1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 0][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 2][Player: 0][Pot: 2][Money: 99 99][Public: 4][Round1: 1 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 0][Round 2][Player: 1][Pot: 2][Money: 99 99][Public: 4][Round1: 1 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 5,
+    "trained_seat": 0,
+    "chance_seed": 11000047,
+    "returns": [
+      -3.0,
+      3.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 0][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 1][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 0][Round 2][Player: 1][Pot: 6][Money: 97 97][Public: 1][Round1: 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 5,
+    "trained_seat": 1,
+    "chance_seed": 11000047,
+    "returns": [
+      -5.0,
+      5.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 0][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 2][Money: 99 99][Public: 1][Round1: 1 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 0][Round 2][Player: 1][Pot: 2][Money: 99 99][Public: 1][Round1: 1 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 6][Money: 99 95][Public: 1][Round1: 1 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 6,
+    "trained_seat": 0,
+    "chance_seed": 11000048,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 2][Player: 0][Pot: 2][Money: 99 99][Public: 2][Round1: 1 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 2][Player: 1][Pot: 2][Money: 99 99][Public: 2][Round1: 1 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 6,
+    "trained_seat": 1,
+    "chance_seed": 11000048,
+    "returns": [
+      -7.0,
+      7.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 2][Round1: 1 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 2][Player: 1][Pot: 6][Money: 97 97][Public: 2][Round1: 1 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 2][Player: 0][Pot: 10][Money: 97 93][Public: 2][Round1: 1 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 7,
+    "trained_seat": 0,
+    "chance_seed": 11000049,
+    "returns": [
+      7.0,
+      -7.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 0][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 4][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 0][Round 2][Player: 1][Pot: 10][Money: 93 97][Public: 4][Round1: 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 7,
+    "trained_seat": 1,
+    "chance_seed": 11000049,
+    "returns": [
+      3.0,
+      -3.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 0][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 4][Round1: 1 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 0][Round 2][Player: 1][Pot: 6][Money: 97 97][Public: 4][Round1: 1 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 8,
+    "trained_seat": 0,
+    "chance_seed": 11000050,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 2][Player: 0][Pot: 2][Money: 99 99][Public: 4][Round1: 1 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 2][Money: 99 99][Public: 4][Round1: 1 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 8,
+    "trained_seat": 1,
+    "chance_seed": 11000050,
+    "returns": [
+      -3.0,
+      3.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 4][Round1: 1 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 6][Money: 97 97][Public: 4][Round1: 1 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 9,
+    "trained_seat": 0,
+    "chance_seed": 11000051,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 2][Player: 0][Pot: 2][Money: 99 99][Public: 3][Round1: 1 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 2][Player: 1][Pot: 2][Money: 99 99][Public: 3][Round1: 1 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "passive",
+    "pair": 9,
+    "trained_seat": 1,
+    "chance_seed": 11000051,
+    "returns": [
+      -3.0,
+      3.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 3][Round1: 1 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 2][Player: 1][Pot: 6][Money: 97 97][Public: 3][Round1: 1 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 0,
+    "trained_seat": 0,
+    "chance_seed": 21000042,
+    "returns": [
+      13.0,
+      -13.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 5][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 14][Money: 91 95][Public: 5][Round1: 2 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 22][Money: 91 87][Public: 5][Round1: 2 2 1][Round2: 2 2]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 0,
+    "trained_seat": 1,
+    "chance_seed": 21000042,
+    "returns": [
+      3.0,
+      -3.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 5][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 10][Money: 93 97][Public: 5][Round1: 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 1,
+    "trained_seat": 0,
+    "chance_seed": 21000043,
+    "returns": [
+      13.0,
+      -13.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 8][Money: 95 97][Round1: 1 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 4][Round1: 1 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 2][Player: 1][Pot: 14][Money: 91 95][Public: 4][Round1: 1 2 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 22][Money: 91 87][Public: 4][Round1: 1 2 2 1][Round2: 2 2]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 1,
+    "trained_seat": 1,
+    "chance_seed": 21000043,
+    "returns": [
+      1.0,
+      -1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 2,
+    "trained_seat": 0,
+    "chance_seed": 21000044,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 2,
+    "trained_seat": 1,
+    "chance_seed": 21000044,
+    "returns": [
+      -9.0,
+      9.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 2][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 2][Player: 1][Pot: 14][Money: 91 95][Public: 2][Round1: 2 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 3,
+    "trained_seat": 0,
+    "chance_seed": 21000045,
+    "returns": [
+      -9.0,
+      9.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 2][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 2][Player: 1][Pot: 14][Money: 91 95][Public: 2][Round1: 2 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 22][Money: 91 87][Public: 2][Round1: 2 2 1][Round2: 2 2]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 3,
+    "trained_seat": 1,
+    "chance_seed": 21000045,
+    "returns": [
+      -13.0,
+      13.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 2][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 2][Player: 1][Pot: 14][Money: 91 95][Public: 2][Round1: 2 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 22][Money: 91 87][Public: 2][Round1: 2 2 1][Round2: 2 2]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 4,
+    "trained_seat": 0,
+    "chance_seed": 21000046,
+    "returns": [
+      -9.0,
+      9.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 4][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 2][Player: 1][Pot: 10][Money: 95 95][Public: 4][Round1: 2 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 2][Player: 0][Pot: 14][Money: 95 91][Public: 4][Round1: 2 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 4,
+    "trained_seat": 1,
+    "chance_seed": 21000046,
+    "returns": [
+      -9.0,
+      9.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 4][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 2][Player: 1][Pot: 14][Money: 91 95][Public: 4][Round1: 2 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 5,
+    "trained_seat": 0,
+    "chance_seed": 21000047,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 5,
+    "trained_seat": 1,
+    "chance_seed": 21000047,
+    "returns": [
+      3.0,
+      -3.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 3][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 2][Player: 1][Pot: 10][Money: 93 97][Public: 3][Round1: 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 6,
+    "trained_seat": 0,
+    "chance_seed": 21000048,
+    "returns": [
+      -5.0,
+      5.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 0][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 10][Money: 95 95][Public: 0][Round1: 2 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 2][Player: 0][Pot: 14][Money: 95 91][Public: 0][Round1: 2 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 6,
+    "trained_seat": 1,
+    "chance_seed": 21000048,
+    "returns": [
+      5.0,
+      -5.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 0][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 14][Money: 91 95][Public: 0][Round1: 2 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 7,
+    "trained_seat": 0,
+    "chance_seed": 21000049,
+    "returns": [
+      13.0,
+      -13.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 4][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 10][Money: 95 95][Public: 4][Round1: 2 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 14][Money: 95 91][Public: 4][Round1: 2 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 22][Money: 87 91][Public: 4][Round1: 2 2 1][Round2: 1 2 2]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 7,
+    "trained_seat": 1,
+    "chance_seed": 21000049,
+    "returns": [
+      5.0,
+      -5.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 4][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 14][Money: 91 95][Public: 4][Round1: 2 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 8,
+    "trained_seat": 0,
+    "chance_seed": 21000050,
+    "returns": [
+      -5.0,
+      5.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 5][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 10][Money: 95 95][Public: 5][Round1: 2 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 2][Player: 0][Pot: 14][Money: 95 91][Public: 5][Round1: 2 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 8,
+    "trained_seat": 1,
+    "chance_seed": 21000050,
+    "returns": [
+      0.0,
+      0.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 5][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 10][Money: 93 97][Public: 5][Round1: 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 9,
+    "trained_seat": 0,
+    "chance_seed": 21000051,
+    "returns": [
+      -7.0,
+      7.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 2][Round1: 1 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 2][Player: 1][Pot: 10][Money: 93 97][Public: 2][Round1: 1 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 2][Player: 0][Pot: 18][Money: 93 89][Public: 2][Round1: 1 2 1][Round2: 2 2]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "aggressive",
+    "pair": 9,
+    "trained_seat": 1,
+    "chance_seed": 21000051,
+    "returns": [
+      -9.0,
+      9.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 2][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 2][Player: 1][Pot: 14][Money: 91 95][Public: 2][Round1: 2 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 0,
+    "trained_seat": 0,
+    "chance_seed": 31000042,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 0,
+    "trained_seat": 1,
+    "chance_seed": 31000042,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 1,
+    "trained_seat": 0,
+    "chance_seed": 31000043,
+    "returns": [
+      -5.0,
+      5.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 3][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 2][Player: 1][Pot: 10][Money: 95 95][Public: 3][Round1: 2 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 2][Player: 0][Pot: 14][Money: 95 91][Public: 3][Round1: 2 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 1,
+    "trained_seat": 1,
+    "chance_seed": 31000043,
+    "returns": [
+      -5.0,
+      5.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 0
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 3][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 2][Player: 1][Pot: 10][Money: 95 95][Public: 3][Round1: 2 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 0][Round 2][Player: 0][Pot: 14][Money: 95 91][Public: 3][Round1: 2 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 2,
+    "trained_seat": 0,
+    "chance_seed": 31000044,
+    "returns": [
+      -3.0,
+      3.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 2][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 2][Player: 1][Pot: 6][Money: 97 97][Public: 2][Round1: 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 10][Money: 97 93][Public: 2][Round1: 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 2,
+    "trained_seat": 1,
+    "chance_seed": 31000044,
+    "returns": [
+      -3.0,
+      3.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 2][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 3][Round 2][Player: 1][Pot: 6][Money: 97 97][Public: 2][Round1: 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 5][Round 2][Player: 0][Pot: 10][Money: 97 93][Public: 2][Round1: 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 3,
+    "trained_seat": 0,
+    "chance_seed": 31000045,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 3,
+    "trained_seat": 1,
+    "chance_seed": 31000045,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 4,
+    "trained_seat": 0,
+    "chance_seed": 31000046,
+    "returns": [
+      -7.0,
+      7.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 3][Round1: 1 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 10][Money: 93 97][Public: 3][Round1: 1 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 18][Money: 93 89][Public: 3][Round1: 1 2 1][Round2: 2 2]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 4,
+    "trained_seat": 1,
+    "chance_seed": 31000046,
+    "returns": [
+      -7.0,
+      7.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 3][Round1: 1 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 2][Round 2][Player: 1][Pot: 10][Money: 93 97][Public: 3][Round1: 1 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 18][Money: 93 89][Public: 3][Round1: 1 2 1][Round2: 2 2]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 5,
+    "trained_seat": 0,
+    "chance_seed": 31000047,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 5,
+    "trained_seat": 1,
+    "chance_seed": 31000047,
+    "returns": [
+      -1.0,
+      1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 6,
+    "trained_seat": 0,
+    "chance_seed": 31000048,
+    "returns": [
+      -5.0,
+      5.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 4][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 2][Player: 1][Pot: 10][Money: 95 95][Public: 4][Round1: 2 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 2][Player: 0][Pot: 14][Money: 95 91][Public: 4][Round1: 2 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 6,
+    "trained_seat": 1,
+    "chance_seed": 31000048,
+    "returns": [
+      -5.0,
+      5.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 2
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 1][Player: 0][Pot: 8][Money: 97 95][Round1: 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 4][Round1: 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 2][Player: 1][Pot: 10][Money: 95 95][Public: 4][Round1: 2 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 2][Round 2][Player: 0][Pot: 14][Money: 95 91][Public: 4][Round1: 2 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 7,
+    "trained_seat": 0,
+    "chance_seed": 31000049,
+    "returns": [
+      -7.0,
+      7.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 3][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 2][Player: 1][Pot: 10][Money: 93 97][Public: 3][Round1: 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 7,
+    "trained_seat": 1,
+    "chance_seed": 31000049,
+    "returns": [
+      -7.0,
+      7.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 1][Round 2][Player: 0][Pot: 6][Money: 97 97][Public: 3][Round1: 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 4][Round 2][Player: 1][Pot: 10][Money: 93 97][Public: 3][Round1: 2 1][Round2: 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 8,
+    "trained_seat": 0,
+    "chance_seed": 31000050,
+    "returns": [
+      0.0,
+      0.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 1][Player: 1][Pot: 8][Money: 95 97][Round1: 1 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 3][Round1: 1 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 2][Player: 1][Pot: 10][Money: 95 95][Public: 3][Round1: 1 2 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 14][Money: 95 91][Public: 3][Round1: 1 2 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 8,
+    "trained_seat": 1,
+    "chance_seed": 31000050,
+    "returns": [
+      0.0,
+      0.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 4
+      },
+      {
+        "player": -1,
+        "action": 5
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 1][Player: 1][Pot: 2][Money: 99 99][Round1: 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 1][Player: 0][Pot: 4][Money: 99 97][Round1: 1 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 1][Player: 1][Pot: 8][Money: 95 97][Round1: 1 2 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1
+        ],
+        "action": 1
+      },
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 10][Money: 95 95][Public: 3][Round1: 1 2 2 1][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 1
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 5][Round 2][Player: 1][Pot: 10][Money: 95 95][Public: 3][Round1: 1 2 2 1][Round2: 1]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 4][Round 2][Player: 0][Pot: 14][Money: 95 91][Public: 3][Round1: 1 2 2 1][Round2: 1 2]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 1
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 9,
+    "trained_seat": 0,
+    "chance_seed": 31000051,
+    "returns": [
+      1.0,
+      -1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  },
+  {
+    "game": "leduc_poker",
+    "opponent": "trained",
+    "pair": 9,
+    "trained_seat": 1,
+    "chance_seed": 31000051,
+    "returns": [
+      1.0,
+      -1.0
+    ],
+    "history": [
+      {
+        "player": -1,
+        "action": 3
+      },
+      {
+        "player": -1,
+        "action": 1
+      },
+      {
+        "player": 0,
+        "information": "[Observer: 0][Private: 3][Round 1][Player: 0][Pot: 2][Money: 99 99][Round1: ][Round2: ]",
+        "legal_actions": [
+          1,
+          2
+        ],
+        "action": 2
+      },
+      {
+        "player": 1,
+        "information": "[Observer: 1][Private: 1][Round 1][Player: 1][Pot: 4][Money: 97 99][Round1: 2][Round2: ]",
+        "legal_actions": [
+          0,
+          1,
+          2
+        ],
+        "action": 0
+      }
+    ]
+  }
+]

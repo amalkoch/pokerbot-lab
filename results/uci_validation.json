@@ -1,0 +1,44 @@
+{
+  "source": "https://archive.ics.uci.edu/static/public/158/poker%2Bhand.zip",
+  "citation": "Cattral & Oppacher (2002), doi:10.24432/C5KW38",
+  "license": "CC BY 4.0",
+  "sha256": "c18333f541b344effb8f446c30f398634d1d045e7b991f3c3399e69af940c4c9",
+  "pokerkit_version": "0.7.7",
+  "splits": {
+    "poker-hand-training-true.data": {
+      "checked": 25010,
+      "class_counts": {
+        "9": 5,
+        "8": 5,
+        "1": 10599,
+        "0": 12493,
+        "4": 93,
+        "3": 513,
+        "2": 1206,
+        "5": 54,
+        "6": 36,
+        "7": 6
+      },
+      "mismatches": 0,
+      "first_errors": []
+    },
+    "poker-hand-testing.data": {
+      "checked": 1000000,
+      "class_counts": {
+        "0": 501209,
+        "1": 422498,
+        "2": 47622,
+        "3": 21121,
+        "5": 1996,
+        "4": 3885,
+        "6": 1424,
+        "7": 230,
+        "8": 12,
+        "9": 3
+      },
+      "mismatches": 0,
+      "first_errors": []
+    }
+  },
+  "purpose": "Hand-evaluator validation; contains no betting decisions."
+}

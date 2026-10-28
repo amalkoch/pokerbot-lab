@@ -21,7 +21,7 @@
     ],
     "invalid_actions": 0
   },
-  "next": "Benchmark baselines over held-out seeds and add tournament risk exercises.",
+  "next": "Compare CFR+ and MCCFR at equal elapsed budgets; broaden opponent evaluation.",
   "official_submission": false,
   "remote_status": "See GitHub commit history; initial upload uses browser UI, with history separate from local initial commit.",
   "math_milestone": {
@@ -36,5 +36,13 @@
     ],
     "total_tests_passed": 15,
     "validation": "ICM checked against independent permutations; draw probabilities checked against enumerated small decks"
+  },
+  "research_milestone": {
+    "date": "2026-10-28",
+    "simulated_hands": 100000,
+    "uci_rows_validated": 1025010,
+    "uci_mismatches": 0,
+    "total_tests_passed": 19,
+    "report": "RESEARCH.md"
   }
 }

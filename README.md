@@ -66,9 +66,13 @@ This repository is preparation material, not an official starter kit or a ready-
 
 Timing reports measure policy calls on the current machine; they do not enforce timeouts, isolate processes, or establish compliance on organizer hardware. The practice engine uses net chips, not the event's finishing-position/ICM scoring.
 
+## Research benchmark
+
+See [RESEARCH.md](RESEARCH.md) for library and algorithm comparisons, reproducible training commands, 100,000 simulated hands, and validation against all 1,025,010 UCI hand labels. OpenSpiel and PokerKit are optional research dependencies.
+
 ## Next increments
 
-- Add a benchmark matrix with held-out seeds and saved results.
+- Compare solvers at equal wall-clock budgets across multiple seeds.
 - Extend the math exercises with tournament risk scenarios and explanations.
 - Add more practice opponents and constrained, legal-action adapters.
 - Run a timed 60-minute build drill; adapt to the official interface only when released.

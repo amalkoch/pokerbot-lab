@@ -1,0 +1,372 @@
+{
+  "seed": 42,
+  "iterations_per_solver": 1000,
+  "environment": {
+    "python": "3.11.15",
+    "platform": "macOS-26.1-arm64-arm-64bit",
+    "open_spiel": "2.0.2"
+  },
+  "training": {
+    "kuhn_poker": [
+      {
+        "algorithm": "cfr",
+        "iterations": 1000,
+        "seconds_including_checks": 0.02448595827445388,
+        "exploitability": 0.0009376166469928296,
+        "information_states": 12,
+        "trace": [
+          {
+            "iteration": 1,
+            "seconds_including_checks": 4.512490704655647e-05,
+            "exploitability": 0.45833333333333326
+          },
+          {
+            "iteration": 10,
+            "seconds_including_checks": 0.0009347079321742058,
+            "exploitability": 0.06869879381715753
+          },
+          {
+            "iteration": 100,
+            "seconds_including_checks": 0.003170750103890896,
+            "exploitability": 0.008225977315915262
+          },
+          {
+            "iteration": 1000,
+            "seconds_including_checks": 0.02435716614127159,
+            "exploitability": 0.0009376166469928296
+          }
+        ]
+      },
+      {
+        "algorithm": "cfr_plus",
+        "iterations": 1000,
+        "seconds_including_checks": 0.020136957988142967,
+        "exploitability": 8.73653225207556e-05,
+        "information_states": 12,
+        "trace": [
+          {
+            "iteration": 1,
+            "seconds_including_checks": 3.245798870921135e-05,
+            "exploitability": 0.45833333333333326
+          },
+          {
+            "iteration": 10,
+            "seconds_including_checks": 0.0003582499921321869,
+            "exploitability": 0.03268709066834475
+          },
+          {
+            "iteration": 100,
+            "seconds_including_checks": 0.0024996246211230755,
+            "exploitability": 0.0011944041011116464
+          },
+          {
+            "iteration": 1000,
+            "seconds_including_checks": 0.020055290777236223,
+            "exploitability": 8.73653225207556e-05
+          }
+        ]
+      },
+      {
+        "algorithm": "external_mccfr_seed_42",
+        "iterations": 1000,
+        "seconds_including_checks": 0.0034390422515571117,
+        "exploitability": 0.0486199770788234,
+        "information_states": 12,
+        "trace": [
+          {
+            "iteration": 1,
+            "seconds_including_checks": 2.2333115339279175e-05,
+            "exploitability": 0.45833333333333326
+          },
+          {
+            "iteration": 10,
+            "seconds_including_checks": 0.0001477082259953022,
+            "exploitability": 0.510416682291565
+          },
+          {
+            "iteration": 100,
+            "seconds_including_checks": 0.0005462081171572208,
+            "exploitability": 0.12843309095512723
+          },
+          {
+            "iteration": 1000,
+            "seconds_including_checks": 0.0033540832810103893,
+            "exploitability": 0.0486199770788234
+          }
+        ]
+      },
+      {
+        "algorithm": "external_mccfr_seed_43",
+        "iterations": 1000,
+        "seconds_including_checks": 0.0036247079260647297,
+        "exploitability": 0.024225836188506985,
+        "information_states": 12,
+        "trace": [
+          {
+            "iteration": 1,
+            "seconds_including_checks": 5.8747828006744385e-06,
+            "exploitability": 0.45833333333333326
+          },
+          {
+            "iteration": 10,
+            "seconds_including_checks": 0.00013687508180737495,
+            "exploitability": 0.191898127214545
+          },
+          {
+            "iteration": 100,
+            "seconds_including_checks": 0.0005271658301353455,
+            "exploitability": 0.08257285909030866
+          },
+          {
+            "iteration": 1000,
+            "seconds_including_checks": 0.00352645805105567,
+            "exploitability": 0.024225836188506985
+          }
+        ]
+      },
+      {
+        "algorithm": "external_mccfr_seed_44",
+        "iterations": 1000,
+        "seconds_including_checks": 0.00438112486153841,
+        "exploitability": 0.01691484708096753,
+        "information_states": 12,
+        "trace": [
+          {
+            "iteration": 1,
+            "seconds_including_checks": 1.0292045772075653e-05,
+            "exploitability": 0.45833333333333326
+          },
+          {
+            "iteration": 10,
+            "seconds_including_checks": 0.00016533304005861282,
+            "exploitability": 0.19965276707176766
+          },
+          {
+            "iteration": 100,
+            "seconds_including_checks": 0.0006822496652603149,
+            "exploitability": 0.11336477187480488
+          },
+          {
+            "iteration": 1000,
+            "seconds_including_checks": 0.004288166761398315,
+            "exploitability": 0.01691484708096753
+          }
+        ]
+      }
+    ],
+    "leduc_poker": [
+      {
+        "algorithm": "cfr",
+        "iterations": 1000,
+        "seconds_including_checks": 5.886654583737254,
+        "exploitability": 0.01181720325037413,
+        "information_states": 936,
+        "trace": [
+          {
+            "iteration": 1,
+            "seconds_including_checks": 0.0074307918548583984,
+            "exploitability": 2.373611111111111
+          },
+          {
+            "iteration": 10,
+            "seconds_including_checks": 0.08404483366757631,
+            "exploitability": 0.8885789831687692
+          },
+          {
+            "iteration": 100,
+            "seconds_including_checks": 0.6413586246781051,
+            "exploitability": 0.09571635300459823
+          },
+          {
+            "iteration": 1000,
+            "seconds_including_checks": 5.859830874949694,
+            "exploitability": 0.01181720325037413
+          }
+        ]
+      },
+      {
+        "algorithm": "cfr_plus",
+        "iterations": 1000,
+        "seconds_including_checks": 6.813956792000681,
+        "exploitability": 0.00024615158746654764,
+        "information_states": 936,
+        "trace": [
+          {
+            "iteration": 1,
+            "seconds_including_checks": 0.007483209017664194,
+            "exploitability": 2.373611111111111
+          },
+          {
+            "iteration": 10,
+            "seconds_including_checks": 0.09192608390003443,
+            "exploitability": 0.6104389015904066
+          },
+          {
+            "iteration": 100,
+            "seconds_including_checks": 0.7345322500914335,
+            "exploitability": 0.01341599497561171
+          },
+          {
+            "iteration": 1000,
+            "seconds_including_checks": 6.786616916768253,
+            "exploitability": 0.00024615158746654764
+          }
+        ]
+      },
+      {
+        "algorithm": "external_mccfr_seed_42",
+        "iterations": 1000,
+        "seconds_including_checks": 0.13009366672486067,
+        "exploitability": 1.2710048565058913,
+        "information_states": 936,
+        "trace": [
+          {
+            "iteration": 1,
+            "seconds_including_checks": 3.929203376173973e-05,
+            "exploitability": 2.373611111111111
+          },
+          {
+            "iteration": 10,
+            "seconds_including_checks": 0.028165957890450954,
+            "exploitability": 2.307754623669063
+          },
+          {
+            "iteration": 100,
+            "seconds_including_checks": 0.05829845787957311,
+            "exploitability": 2.264131639050623
+          },
+          {
+            "iteration": 1000,
+            "seconds_including_checks": 0.10318004200235009,
+            "exploitability": 1.2710048565058913
+          }
+        ]
+      },
+      {
+        "algorithm": "external_mccfr_seed_43",
+        "iterations": 1000,
+        "seconds_including_checks": 0.13038266682997346,
+        "exploitability": 1.3666796137452089,
+        "information_states": 936,
+        "trace": [
+          {
+            "iteration": 1,
+            "seconds_including_checks": 3.3457763493061066e-05,
+            "exploitability": 2.373611111111111
+          },
+          {
+            "iteration": 10,
+            "seconds_including_checks": 0.02795583289116621,
+            "exploitability": 2.389137703473405
+          },
+          {
+            "iteration": 100,
+            "seconds_including_checks": 0.05726216686889529,
+            "exploitability": 2.4252759368191295
+          },
+          {
+            "iteration": 1000,
+            "seconds_including_checks": 0.1018514996394515,
+            "exploitability": 1.3666796137452089
+          }
+        ]
+      },
+      {
+        "algorithm": "external_mccfr_seed_44",
+        "iterations": 1000,
+        "seconds_including_checks": 0.1323362090624869,
+        "exploitability": 1.247668167781086,
+        "information_states": 936,
+        "trace": [
+          {
+            "iteration": 1,
+            "seconds_including_checks": 3.745919093489647e-05,
+            "exploitability": 2.373611111111111
+          },
+          {
+            "iteration": 10,
+            "seconds_including_checks": 0.028152749873697758,
+            "exploitability": 2.488679007537848
+          },
+          {
+            "iteration": 100,
+            "seconds_including_checks": 0.05878641689196229,
+            "exploitability": 2.4030528030032245
+          },
+          {
+            "iteration": 1000,
+            "seconds_including_checks": 0.1050282921642065,
+            "exploitability": 1.247668167781086
+          }
+        ]
+      }
+    ]
+  },
+  "evaluation": [
+    {
+      "opponent": "uniform",
+      "hands": 25000,
+      "mean_net_chips_per_hand": 0.69568,
+      "approx_95pct_half_width": 0.04406517591300632,
+      "policy_decisions": 52544,
+      "p99_decision_us": 0.75,
+      "max_decision_us": 12.375,
+      "decisions_over_1ms": 0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "passive",
+      "hands": 25000,
+      "mean_net_chips_per_hand": 0.6588,
+      "approx_95pct_half_width": 0.02542282931657523,
+      "policy_decisions": 50000,
+      "p99_decision_us": 0.708,
+      "max_decision_us": 11.667,
+      "decisions_over_1ms": 0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "aggressive",
+      "hands": 25000,
+      "mean_net_chips_per_hand": 0.32168,
+      "approx_95pct_half_width": 0.06463919442976046,
+      "policy_decisions": 64177,
+      "p99_decision_us": 0.667,
+      "max_decision_us": 13.875,
+      "decisions_over_1ms": 0,
+      "illegal_actions": 0
+    },
+    {
+      "opponent": "trained",
+      "hands": 25000,
+      "mean_net_chips_per_hand": 0.0,
+      "approx_95pct_half_width": 0.0,
+      "policy_decisions": 49630,
+      "p99_decision_us": 0.667,
+      "max_decision_us": 31.833,
+      "decisions_over_1ms": 0,
+      "illegal_actions": 0
+    }
+  ],
+  "notes": [
+    "Equal iterations, not equal compute; use timing as well as exploitability.",
+    "Training games are two-player zero-sum Kuhn/Leduc, not the unreleased eight-bot event.",
+    "Decision timings exclude information-state construction, process startup and sandbox overhead.",
+    "Confidence intervals use paired-seed mean returns; self-play is a seat-symmetry check.",
+    "Synthetic replay histories include chance cards: for offline analysis, not agent inputs."
+  ],
+  "selected_policy": {
+    "game": "leduc_poker",
+    "algorithm": "cfr_plus",
+    "exploitability": 0.00024615158746654764,
+    "file_bytes": 160879,
+    "sha256": "3f212221089a08c419b710e9adf1f3aa0c57b9145aaf99937f847e8e97690270"
+  },
+  "dataset": {
+    "file": "simulated_hands.jsonl.gz",
+    "hands": 100000,
+    "bytes": 2074334,
+    "sha256": "a9deb278e28195d51d2cfb01cb1de2f09ce7683d9a4abff2d53de735297284d5",
+    "provenance": "Generated locally by simulation_benchmark.py; not observed tournament play."
+  }
+}
