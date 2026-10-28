@@ -21,7 +21,20 @@
     ],
     "invalid_actions": 0
   },
-  "next": "Benchmark all baselines over held-out seeds; analyze why opponent behavior changes the result.",
+  "next": "Benchmark baselines over held-out seeds and add tournament risk exercises.",
   "official_submission": false,
-  "remote_status": "See GitHub commit history; initial upload uses browser UI, with history separate from local initial commit."
+  "remote_status": "See GitHub commit history; initial upload uses browser UI, with history separate from local initial commit.",
+  "math_milestone": {
+    "date": "2026-10-28",
+    "features": [
+      "pot odds",
+      "call EV",
+      "pure-bluff EV",
+      "exact outs probability",
+      "ICM",
+      "six-round weighted score"
+    ],
+    "total_tests_passed": 15,
+    "validation": "ICM checked against independent permutations; draw probabilities checked against enumerated small decks"
+  }
 }
