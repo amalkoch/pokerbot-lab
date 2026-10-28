@@ -66,6 +66,10 @@ This repository is preparation material, not an official starter kit or a ready-
 
 Timing reports measure policy calls on the current machine; they do not enforce timeouts, isolate processes, or establish compliance on organizer hardware. The practice engine uses net chips, not the event's finishing-position/ICM scoring.
 
+## Datasets for algorithm experiments
+
+See [DATASETS.md](DATASETS.md) for a ranked source review, a full PokerBench CSV audit, and a replay-validated Pluribus sample. The audit identifies future-card leakage and train/test overlap before model fitting.
+
 ## Research benchmark
 
 See [RESEARCH.md](RESEARCH.md) for library and algorithm comparisons, reproducible training commands, 100,000 simulated hands, and validation against all 1,025,010 UCI hand labels. OpenSpiel and PokerKit are optional research dependencies.

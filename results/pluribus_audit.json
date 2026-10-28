@@ -1,0 +1,650 @@
+{
+  "source": "https://github.com/uoftcprg/phh-dataset",
+  "revision": "e47fbd5816372360bade4de5d712346fe1bb70f6",
+  "selection": "Every file in data/pluribus/100; one session, not a random or representative sample",
+  "files_checked": 71,
+  "successful_terminal_replays": 71,
+  "failures": [],
+  "details": [
+    {
+      "file": "data/pluribus/100/0.phh",
+      "states": 22,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 12,
+      "unknown_card_markers": 0,
+      "sha256": "794cf64c4225a081ab80a07ac05865e9691eca67980b0f480ba6df6ee67e2487"
+    },
+    {
+      "file": "data/pluribus/100/1.phh",
+      "states": 21,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 12,
+      "unknown_card_markers": 0,
+      "sha256": "4e48de5a2031e038d4bbb4d2c6127bfbcf9a91f1a369c3eaa73eaec54f2be113"
+    },
+    {
+      "file": "data/pluribus/100/10.phh",
+      "states": 17,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 9,
+      "unknown_card_markers": 0,
+      "sha256": "85ce789cc9bbf1a0c1c84155deda3514d5fc87113278549be9b38a236575ae87"
+    },
+    {
+      "file": "data/pluribus/100/11.phh",
+      "states": 26,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 16,
+      "unknown_card_markers": 0,
+      "sha256": "4e36fc56706624111e2e340084f249aa30e8abfedd0a6d82484b717b82af17cd"
+    },
+    {
+      "file": "data/pluribus/100/12.phh",
+      "states": 27,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 17,
+      "unknown_card_markers": 0,
+      "sha256": "0ea7452656d1f1f67b0b7f929a9223af9b3e5ee7f5de0a73099109ca17836969"
+    },
+    {
+      "file": "data/pluribus/100/13.phh",
+      "states": 19,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 10,
+      "unknown_card_markers": 0,
+      "sha256": "457099edfcb95e1e1f079fbe292db75ac26c1c72cabfc187e180fd63fa0fcf96"
+    },
+    {
+      "file": "data/pluribus/100/14.phh",
+      "states": 24,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 14,
+      "unknown_card_markers": 0,
+      "sha256": "e71f634759c740b8ecf4458a69c5b16529ededc89c34f2949925bd526177bda6"
+    },
+    {
+      "file": "data/pluribus/100/15.phh",
+      "states": 19,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 11,
+      "unknown_card_markers": 0,
+      "sha256": "b7c3de66d4c6427295141fa4d56bf7203718fccffc3c753f85be7a693ab085c0"
+    },
+    {
+      "file": "data/pluribus/100/16.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "dde18f198f87246f1250de644458b3bf8448e9d2de1ee3389fe8ae2125d8763e"
+    },
+    {
+      "file": "data/pluribus/100/17.phh",
+      "states": 23,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 13,
+      "unknown_card_markers": 0,
+      "sha256": "2e5fbd24ad3c7b632ad82f6099ed8e0d80c7c019723f741bf96781c319ff0d03"
+    },
+    {
+      "file": "data/pluribus/100/18.phh",
+      "states": 24,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 14,
+      "unknown_card_markers": 0,
+      "sha256": "b92b7cd7642c6e69a8311381bd65b0c6951f6a69ec146d1e01ff5ab37d01b386"
+    },
+    {
+      "file": "data/pluribus/100/19.phh",
+      "states": 17,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 9,
+      "unknown_card_markers": 0,
+      "sha256": "bccc3f9c700a3409f5444d3bdc383d2edf1f2948b49e03247a8ff737bc4d8e8d"
+    },
+    {
+      "file": "data/pluribus/100/2.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "17c0ffb386d7f2876e5fad8a341ba48063e078ccf9de494e9a48c10125cb8d11"
+    },
+    {
+      "file": "data/pluribus/100/20.phh",
+      "states": 14,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 7,
+      "unknown_card_markers": 0,
+      "sha256": "48b7f0e8d3f974dc8a141e645adb84cdbfd9ea12d3345b56c573cbe18801bda4"
+    },
+    {
+      "file": "data/pluribus/100/21.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "31c6715883726408f866fc8f4db36839c6cc6e4657d05703cbab1b301e426fc9"
+    },
+    {
+      "file": "data/pluribus/100/22.phh",
+      "states": 23,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 13,
+      "unknown_card_markers": 0,
+      "sha256": "4cc61937b2cc1f04de88bb00eb680580be7ec74e0fcf61f41853b5b6ddfc5de0"
+    },
+    {
+      "file": "data/pluribus/100/23.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "35fccfb8db45f9b177dbd279c4d471b20580e30ec7668e79a74e0fd13f0ece78"
+    },
+    {
+      "file": "data/pluribus/100/24.phh",
+      "states": 19,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 10,
+      "unknown_card_markers": 0,
+      "sha256": "7c27abf4b17e955824439f1850594e4862552c3361d7ac74f43c29de4cffa905"
+    },
+    {
+      "file": "data/pluribus/100/25.phh",
+      "states": 23,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 13,
+      "unknown_card_markers": 0,
+      "sha256": "a04b14222503732a04691f8ae7367f4bc199dc0b87fb36097fc582074644bba7"
+    },
+    {
+      "file": "data/pluribus/100/26.phh",
+      "states": 12,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 5,
+      "unknown_card_markers": 0,
+      "sha256": "ba7df581328e74854e9da7ed362c2c4f3e5565d2bc0b23bbf7ad3ad5ee35255d"
+    },
+    {
+      "file": "data/pluribus/100/27.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "959a4fd2b5c75f202601ade2b7d82cb5d5a5d753e83821a8e27fea8aacc4d578"
+    },
+    {
+      "file": "data/pluribus/100/28.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "74f7a0c06e9427a6590327cdc48b7bae969b5280876ec4c609443c9b1a707634"
+    },
+    {
+      "file": "data/pluribus/100/29.phh",
+      "states": 21,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 12,
+      "unknown_card_markers": 0,
+      "sha256": "48a95b2d75632fa9f69be0f517084f947138692196a59a77a97dbaefc87d06ed"
+    },
+    {
+      "file": "data/pluribus/100/3.phh",
+      "states": 20,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 11,
+      "unknown_card_markers": 0,
+      "sha256": "9265fadee55605b00c996dffee703abba3b466b2c9b1657648e5dd544ec7e142"
+    },
+    {
+      "file": "data/pluribus/100/30.phh",
+      "states": 14,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 7,
+      "unknown_card_markers": 0,
+      "sha256": "fbaa52ca192453fb601e6d18e8b764b799a9fd38387fc8659059e526e6a1dfa2"
+    },
+    {
+      "file": "data/pluribus/100/31.phh",
+      "states": 24,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 14,
+      "unknown_card_markers": 0,
+      "sha256": "7f7c5132f0ef23cf4989e1bf7a9d4c6135647f2736446b3545d36e9e52780e27"
+    },
+    {
+      "file": "data/pluribus/100/32.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "effc46ae8d27d12c8701f7f5cda4db62258eb6d94a5df6f45a2285056e072a3d"
+    },
+    {
+      "file": "data/pluribus/100/33.phh",
+      "states": 24,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 14,
+      "unknown_card_markers": 0,
+      "sha256": "3befeb44687955896619a77a1bb465f89b34566a0ba09df3ff712abee5119a02"
+    },
+    {
+      "file": "data/pluribus/100/34.phh",
+      "states": 12,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 5,
+      "unknown_card_markers": 0,
+      "sha256": "15afad6b29a36252b5d7b08a737c96e45693b64ee1f3afb6e821951f64464f5c"
+    },
+    {
+      "file": "data/pluribus/100/35.phh",
+      "states": 12,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 5,
+      "unknown_card_markers": 0,
+      "sha256": "e8b52b2ea46269ffd80fac322891bdaac672f3e374dd1099b644a34346eaa931"
+    },
+    {
+      "file": "data/pluribus/100/36.phh",
+      "states": 17,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 9,
+      "unknown_card_markers": 0,
+      "sha256": "1caca6d426bcc7cde2e201d2de191a26ffd53a2980364b1b29afe3d05c560a45"
+    },
+    {
+      "file": "data/pluribus/100/37.phh",
+      "states": 23,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 13,
+      "unknown_card_markers": 0,
+      "sha256": "7abc56b8f580319ff43e30a66de85c3eeac5943b07dd5477939b9cb3d68840d1"
+    },
+    {
+      "file": "data/pluribus/100/38.phh",
+      "states": 29,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 19,
+      "unknown_card_markers": 0,
+      "sha256": "179ce839140228d0254e7a763514a27be3ac36cfd149ac366c6dde885a7ef368"
+    },
+    {
+      "file": "data/pluribus/100/39.phh",
+      "states": 23,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 13,
+      "unknown_card_markers": 0,
+      "sha256": "c135c31360df478e2556ffa4045d918787d2c04d024da0f8eaa5a43c7286f1d2"
+    },
+    {
+      "file": "data/pluribus/100/4.phh",
+      "states": 24,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 14,
+      "unknown_card_markers": 0,
+      "sha256": "ff895ab284e0b7840425267f83cf12ef7b164a1302345c14a2edf4f8437eb124"
+    },
+    {
+      "file": "data/pluribus/100/40.phh",
+      "states": 12,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 5,
+      "unknown_card_markers": 0,
+      "sha256": "b6a6b026fd0facf632c95590f224f188fb099d9a3a39831c39eef681542f7cf0"
+    },
+    {
+      "file": "data/pluribus/100/41.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "0202ea32637b0b622bbb189b2ca6a929817a3fbf968480e656952216f939ce50"
+    },
+    {
+      "file": "data/pluribus/100/42.phh",
+      "states": 25,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 15,
+      "unknown_card_markers": 0,
+      "sha256": "347304463be8e2023b63116dd694324f41f8858d507e5bf84b51b728d96327ed"
+    },
+    {
+      "file": "data/pluribus/100/43.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "a2429b681a41d92d68bc3caaa42e5b43a0c08f4ae423a8d1a6fabcbc3ca40535"
+    },
+    {
+      "file": "data/pluribus/100/44.phh",
+      "states": 25,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 15,
+      "unknown_card_markers": 0,
+      "sha256": "09bdde2f9a57207fe72670ff8ec1aa5a252dd4c17fb37aa26070fe14fae82b8d"
+    },
+    {
+      "file": "data/pluribus/100/45.phh",
+      "states": 22,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 13,
+      "unknown_card_markers": 0,
+      "sha256": "b4896e02c852be1ad127338c0f7df572fa8367acd8b5e564ae990dfc872cf75d"
+    },
+    {
+      "file": "data/pluribus/100/46.phh",
+      "states": 16,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 8,
+      "unknown_card_markers": 0,
+      "sha256": "b7862221776110338303801ec448ae18bce23173a0cf8da8e7721c582f95d008"
+    },
+    {
+      "file": "data/pluribus/100/47.phh",
+      "states": 24,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 14,
+      "unknown_card_markers": 0,
+      "sha256": "0e66368f818270e20a26d152567fd3f06e2f6c6add3b5c0837527b4d219b8ced"
+    },
+    {
+      "file": "data/pluribus/100/48.phh",
+      "states": 18,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 10,
+      "unknown_card_markers": 0,
+      "sha256": "34a120a8984eb92941c6867523e73f34b0b55854f7b3018fe58ae16f76a31d7b"
+    },
+    {
+      "file": "data/pluribus/100/49.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "4e6a2cbc7dfd238ac53c4b771947faaf0d1effd083ac147171e32a1002a35415"
+    },
+    {
+      "file": "data/pluribus/100/5.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "cdc76002e6bf4cfa9e5d41eebc65c056732fc9c3162e60fc7a127e6689d9e258"
+    },
+    {
+      "file": "data/pluribus/100/50.phh",
+      "states": 24,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 14,
+      "unknown_card_markers": 0,
+      "sha256": "34fed00b69d1d1cb7610fed8d17b8681311dbb593582d453ac2418536395c608"
+    },
+    {
+      "file": "data/pluribus/100/51.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "ec87a456bafc3e00533501182c59997201730fa8ce7bd173aea0e2abb6854a2f"
+    },
+    {
+      "file": "data/pluribus/100/52.phh",
+      "states": 24,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 14,
+      "unknown_card_markers": 0,
+      "sha256": "f98f7c67cd60b0493f9c40a7093ddd0dd91fe0889fedf08679235bdee142041b"
+    },
+    {
+      "file": "data/pluribus/100/53.phh",
+      "states": 21,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 12,
+      "unknown_card_markers": 0,
+      "sha256": "5ce9a204c8e78773719f053c03d4873f56631fe62e0e2598e3cf8cc2f444def3"
+    },
+    {
+      "file": "data/pluribus/100/54.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "fd01ddb3ffa733966774938b246f9713d8c20735c8fb9e3c0ae4b21a2994e3ee"
+    },
+    {
+      "file": "data/pluribus/100/55.phh",
+      "states": 21,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 12,
+      "unknown_card_markers": 0,
+      "sha256": "6a9b2f04895431c05eb6bf9d88c383c813d941c1ab4d731ccf5640534bc6b16f"
+    },
+    {
+      "file": "data/pluribus/100/56.phh",
+      "states": 17,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 9,
+      "unknown_card_markers": 0,
+      "sha256": "76b865a9a9102cf99a9cc163b25b1b621a1c9c928b492e421d309663a96f5655"
+    },
+    {
+      "file": "data/pluribus/100/57.phh",
+      "states": 14,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 7,
+      "unknown_card_markers": 0,
+      "sha256": "ad8a36fda7ca0d21f6bb200ec7db47fec0f7c9d8993ef4ff9425cd8c1120e0a8"
+    },
+    {
+      "file": "data/pluribus/100/58.phh",
+      "states": 17,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 9,
+      "unknown_card_markers": 0,
+      "sha256": "08c6a151e754c3712c3e130041294a2ecf34804a1bb7ec97f65dd9e9819a8490"
+    },
+    {
+      "file": "data/pluribus/100/59.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "e3f4b8c73f9bb010ebd94ac0ef00062ecd523cebad6d2d722cb1ad221e39fc28"
+    },
+    {
+      "file": "data/pluribus/100/6.phh",
+      "states": 17,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 9,
+      "unknown_card_markers": 0,
+      "sha256": "f017e2b5a81d2eb5aa34af6ac526fcd854deb9c49bbe504ae5b609c0033ccd49"
+    },
+    {
+      "file": "data/pluribus/100/60.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "8dbc674356f5ad22c63d9382fa1cf89534d0a742fdab7c7c560ac5b0507f577f"
+    },
+    {
+      "file": "data/pluribus/100/61.phh",
+      "states": 29,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 19,
+      "unknown_card_markers": 0,
+      "sha256": "cf7b7e9c41e362d139675bd0361cf67b8561cf0600dc49d02ea40204ae70cb8f"
+    },
+    {
+      "file": "data/pluribus/100/62.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "a900e7cfef2b07a445830ac26d3a169e539e993bdde723f7871182a6b6e165fd"
+    },
+    {
+      "file": "data/pluribus/100/63.phh",
+      "states": 14,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 7,
+      "unknown_card_markers": 0,
+      "sha256": "df767969081581bf30b94c53b3b9fb5a79b2c839e3b07cea63689121e5359172"
+    },
+    {
+      "file": "data/pluribus/100/64.phh",
+      "states": 23,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 13,
+      "unknown_card_markers": 0,
+      "sha256": "4d6765174087eaeb0f8c19534d5d2f93b7de61ecfee44798d77c853a899dc574"
+    },
+    {
+      "file": "data/pluribus/100/65.phh",
+      "states": 24,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 14,
+      "unknown_card_markers": 0,
+      "sha256": "b9d1b0c5eff430ad14d3ed689cae6534cca16f0ef3dcb7bbb22f68babe7b1d8c"
+    },
+    {
+      "file": "data/pluribus/100/66.phh",
+      "states": 25,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 15,
+      "unknown_card_markers": 0,
+      "sha256": "9cdc203b8cc011d4ec8057b4c9a5f43f4b30ca54dadf5f7d7056a5b7c80421c2"
+    },
+    {
+      "file": "data/pluribus/100/67.phh",
+      "states": 13,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 6,
+      "unknown_card_markers": 0,
+      "sha256": "34ec10a71e8e24fadf87eabed0c94037b9cacf79f8482ce0bf327a36717362de"
+    },
+    {
+      "file": "data/pluribus/100/68.phh",
+      "states": 21,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 12,
+      "unknown_card_markers": 0,
+      "sha256": "16bd657a6b97da20607be3d8c952008e8fc5b5be886595dbc503d99b3606c2b6"
+    },
+    {
+      "file": "data/pluribus/100/69.phh",
+      "states": 22,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 13,
+      "unknown_card_markers": 0,
+      "sha256": "376d7b958c54167b3375f788fa9a0b77d7394ade6f2c7e996902dfac73cdc331"
+    },
+    {
+      "file": "data/pluribus/100/7.phh",
+      "states": 15,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 8,
+      "unknown_card_markers": 0,
+      "sha256": "b26ee370cd9141f1ae88c5e0ebd916837779cd7a69d51c80335c48f6e1c493ce"
+    },
+    {
+      "file": "data/pluribus/100/70.phh",
+      "states": 23,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 14,
+      "unknown_card_markers": 0,
+      "sha256": "7637f3c56b3d2a1217fd05a322cc3c89651c91a6375cd6e5f12331e04718887d"
+    },
+    {
+      "file": "data/pluribus/100/8.phh",
+      "states": 18,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 10,
+      "unknown_card_markers": 0,
+      "sha256": "89deffe5125965fb9a12c9553489a169427b84a96b648c02c4e30fdfe719181e"
+    },
+    {
+      "file": "data/pluribus/100/9.phh",
+      "states": 24,
+      "players": 6,
+      "variant": "NT",
+      "decision_actions": 14,
+      "unknown_card_markers": 0,
+      "sha256": "0c0279fb2ca78304f015ac130417b7486f05cfcb192e92aee451a6800b23863a"
+    }
+  ],
+  "warning": "Histories include opponent hole cards and future boards. Reconstruct acting-player observations before training."
+}

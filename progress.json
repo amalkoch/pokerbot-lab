@@ -44,5 +44,13 @@
     "uci_mismatches": 0,
     "total_tests_passed": 19,
     "report": "RESEARCH.md"
+  },
+  "dataset_milestone": {
+    "date": "2026-10-28",
+    "pokerbench_rows_audited": 574200,
+    "overlapping_test_rows": 237,
+    "pluribus_hands_replayed": 71,
+    "tests_passed": 23,
+    "report": "DATASETS.md"
   }
 }
