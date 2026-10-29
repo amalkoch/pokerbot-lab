@@ -58,9 +58,28 @@ Use 1–10 positive surviving stacks and nonincreasing payouts. Missing lower pa
 
 ICM ignores skill differences, positions, blinds, and future strategic interactions. This is an offline study calculator, not an assertion that the computation fits the event's one-millisecond limit. Background: [Gilbert, The Independent Chip Model and Risk Aversion](https://arxiv.org/abs/0911.3100) and [PokerStars' ICM introduction](https://www.pokerstars.com/poker/learn/lesson/icm-and-its-impact-on-tournaments/).
 
+## Tournament risk exercise
+
+Run `python3 tournament_risk.py` to compare a binary, equal-stakes chip gamble
+with keeping the current stacks. This is an **unofficial offline exercise**:
+no dead pot, sunk bets, ties, side pots or future betting are modeled. It is not
+a call/fold recommendation for an arbitrary poker hand.
+
+Example: stacks `[40, 40, 20]`, hypothetical point payouts `[50, 30, 20]`,
+hero and opponent each risk 40, hero wins 55% of the time. Chip EV is **+4**,
+but ICM point EV is **−1.3667**. The point break-even win probability is
+**60.2564%**, versus 50% for chips. The calculator awards the last remaining
+payout when a player busts and uses ICM for the surviving players.
+
+What to learn: the score objective changes the decision. Try winner-take-all
+payouts `[100]` (chip and point break-even coincide), then equal payouts
+`[10, 10, 10]` (no unique break-even probability). These are invented payout
+schedules, not the event's unreleased structure. See the reproducible output in
+[tournament_risk_example.json](tournament_risk_example.json).
+
 ## Competition context
 
-The [official No Limit rules](https://pokerbot.sequoiacap.com/rules.html), checked October 28, 2026, describe a Python Agent interface supplied at the event, a 60-minute initial build phase, offline execution, and a one-millisecond decision limit. The poker variant is revealed on event day. The starter kit includes a simulator and ICM calculator. Six scored rounds have increasing weights.
+The [official No Limit rules](https://pokerbot.sequoiacap.com/rules.html), checked October 29, 2026, describe a Python Agent interface supplied at the event, a 60-minute initial build phase, offline execution, and a one-millisecond decision limit. The poker variant is revealed on event day. The starter kit includes a simulator and ICM calculator. Six scored rounds have increasing weights.
 
 This repository is preparation material, not an official starter kit or a ready-to-submit bot. Do not assume prewritten code can be brought into the competition; confirm that with the organizer. No unreleased event details belong here. No money is wagered in this lab.
 
@@ -81,6 +100,6 @@ See [RESEARCH.md](RESEARCH.md) for library and algorithm comparisons, reproducib
 ## Next increments
 
 - Compare solvers at equal wall-clock budgets across multiple seeds.
-- Extend the math exercises with tournament risk scenarios and explanations.
+- Extend the binary risk exercise with explicitly modeled ties and sunk-pot states.
 - Add more practice opponents and constrained, legal-action adapters.
 - Run a timed 60-minute build drill; adapt to the official interface only when released.

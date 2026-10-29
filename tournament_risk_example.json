@@ -1,0 +1,11 @@
+{
+  "baseline_points": 35.666666666666664,
+  "win_points": 46.0,
+  "lose_points": 20.0,
+  "expected_points": 34.3,
+  "point_ev": -1.3666666666666671,
+  "chip_ev": 4.0000000000000036,
+  "chip_break_even": 0.5,
+  "point_break_even": 0.6025641025641024,
+  "risk_premium": 0.10256410256410242
+}

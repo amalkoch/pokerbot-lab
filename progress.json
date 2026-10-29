@@ -61,5 +61,16 @@
     "exact_test_accuracy": 0.9168882978723404,
     "tests_passed": 28,
     "report": "PREFLOP_RESULTS.md"
-  }
+  },
+  "daily_increments": [
+    {
+      "date": "2026-10-29",
+      "milestone": "ICM point-versus-chip gamble exercise",
+      "checks": "35 tests passed with research environment; system Python passes 26 and skips 9 optional dependency tests",
+      "result": "55% equal-stakes gamble: +4 chip EV, -1.3667 point EV; point break-even 60.2564%",
+      "report": "tournament_risk_example.json",
+      "remote_status": "Commit and remote verification recorded in local .git/daily-progress.json",
+      "next": "Add paired opponent comparisons at equal wall-clock budgets."
+    }
+  ]
 }
