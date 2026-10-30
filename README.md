@@ -28,6 +28,33 @@ The hand-written policies are teaching baselines, not optimal strategies. Winnin
 3. Change one probability in a new policy, rerun against the entire opponent set, and keep a separate seed for evaluation.
 4. Record both favorable and unfavorable results before deciding whether the change helped.
 
+## Reproducible policy comparisons
+
+```sh
+python3 compare_policies.py --candidate mixed --baseline cautious --opponents cautious calling random --seeds 101 202 303 404 505 --pairs 1000
+```
+
+This unofficial Kuhn experiment evaluates both versions against each opponent
+with the same deal seeds and both seats. Each version receives the same number
+of hands (fixed work, **not** equal wall-clock training). Decisions and local
+latency are recorded separately. Policy random-number streams can diverge when
+actions differ, so identical seeds do not imply identical subsequent choices.
+Use stateless policies with the supplied RNG; global mutable state is not reset.
+
+[Recorded example](policy_comparison_example.json): 60,000 hands, five seeds,
+three opponents, zero invalid/failed actions. Mixed minus cautious, in net chips
+per hand: **−0.0068** versus cautious, **−0.1069** versus calling, **+0.1025**
+versus random. The equal-weight opponent-pool mean is **−0.00373**, with a
+seed-block standard error of **0.00362**. These are illustrative baseline
+comparisons, not evidence of a stronger tournament bot.
+
+What to learn: a gain against one opponent may hide a loss against another.
+Average opponents within each seed first; seat swaps and shared-seed opponents
+are not independent samples. Five seed blocks give only a descriptive uncertainty
+estimate. Choose evaluation seeds before comparing versions, keep fresh seeds
+for any policy tuning, and retain unfavorable results. Timings are observations
+on this local machine, not enforced deadlines or organizer-runtime compliance.
+
 ## Poker math exercises
 
 Run `python3 poker_math.py` for worked examples. Import the functions from `poker_math` to try your own simulated-chip scenarios.
@@ -79,7 +106,7 @@ schedules, not the event's unreleased structure. See the reproducible output in
 
 ## Competition context
 
-The [official No Limit rules](https://pokerbot.sequoiacap.com/rules.html), checked October 29, 2026, describe a Python Agent interface supplied at the event, a 60-minute initial build phase, offline execution, and a one-millisecond decision limit. The poker variant is revealed on event day. The starter kit includes a simulator and ICM calculator. Six scored rounds have increasing weights.
+The [official No Limit rules](https://pokerbot.sequoiacap.com/rules.html), checked October 30, 2026, describe a Python Agent interface supplied at the event, a 60-minute initial build phase, offline execution, and a one-millisecond decision limit. The poker variant is revealed on event day. The starter kit includes a simulator and ICM calculator. Six scored rounds have increasing weights.
 
 This repository is preparation material, not an official starter kit or a ready-to-submit bot. Do not assume prewritten code can be brought into the competition; confirm that with the organizer. No unreleased event details belong here. No money is wagered in this lab.
 

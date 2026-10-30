@@ -71,6 +71,14 @@
       "report": "tournament_risk_example.json",
       "remote_status": "Commit and remote verification recorded in local .git/daily-progress.json",
       "next": "Add paired opponent comparisons at equal wall-clock budgets."
+    },
+    {
+      "date": "2026-10-30",
+      "milestone": "Paired-seed multi-opponent policy comparison",
+      "checks": "40 passed in research environment; system Python: 31 passed, 9 optional skips; 60000 simulated hands, zero invalid/failed actions",
+      "report": "policy_comparison_example.json",
+      "remote_status": "Verified commit URL recorded in .git/daily-progress.json after upload",
+      "next": "Add equal wall-clock solver training budgets; current harness deliberately uses fixed hand counts."
     }
   ]
 }

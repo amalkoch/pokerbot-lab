@@ -1,0 +1,903 @@
+{
+  "game": "Unofficial Kuhn poker practice",
+  "candidate": "mixed",
+  "baseline": "cautious",
+  "opponents": [
+    "cautious",
+    "calling",
+    "random"
+  ],
+  "seeds": [
+    101,
+    202,
+    303,
+    404,
+    505
+  ],
+  "pairs_per_match": 1000,
+  "total_hands": 60000,
+  "per_opponent": {
+    "cautious": {
+      "mean_delta_chips_per_hand": -0.0068000000000000005,
+      "seed_block_standard_error": 0.0071179350938316375,
+      "positive_blocks": 1,
+      "blocks": 5
+    },
+    "calling": {
+      "mean_delta_chips_per_hand": -0.10690000000000001,
+      "seed_block_standard_error": 0.0052971690552596155,
+      "positive_blocks": 0,
+      "blocks": 5
+    },
+    "random": {
+      "mean_delta_chips_per_hand": 0.10250000000000001,
+      "seed_block_standard_error": 0.008359126748650246,
+      "positive_blocks": 5,
+      "blocks": 5
+    }
+  },
+  "equal_weight_pool": {
+    "mean_delta_chips_per_hand": -0.0037333333333333368,
+    "seed_block_standard_error": 0.0036192387167592152,
+    "positive_blocks": 1,
+    "blocks": 5
+  },
+  "notes": "Fixed hand count, not equal wall-clock training. Shared deal seeds and seat swaps; action RNG streams can diverge. Standard error is descriptive, not a tournament-strength guarantee. Timings are local observations, not enforced deadlines.",
+  "records": [
+    {
+      "opponent": "cautious",
+      "seed": 101,
+      "baseline": {
+        "hands": 2000,
+        "seed": 101,
+        "chips_per_hand": 0.0,
+        "approx_95pct_half_width": 0.0,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2337,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 1.041,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2337,
+            "median_us": 0.042,
+            "p99_us": 0.125,
+            "max_us": 0.334,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 101,
+        "chips_per_hand": -0.028,
+        "approx_95pct_half_width": 0.023630916313291877,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2281,
+            "median_us": 0.083,
+            "p99_us": 0.166,
+            "max_us": 0.667,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2371,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.208,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": -0.028
+    },
+    {
+      "opponent": "cautious",
+      "seed": 202,
+      "baseline": {
+        "hands": 2000,
+        "seed": 202,
+        "chips_per_hand": 0.0,
+        "approx_95pct_half_width": 0.0,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2343,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.167,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2343,
+            "median_us": 0.042,
+            "p99_us": 0.125,
+            "max_us": 0.125,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 202,
+        "chips_per_hand": -0.0015,
+        "approx_95pct_half_width": 0.02536024642030301,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2289,
+            "median_us": 0.083,
+            "p99_us": 0.166,
+            "max_us": 0.458,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2397,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.125,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": -0.0015
+    },
+    {
+      "opponent": "cautious",
+      "seed": 303,
+      "baseline": {
+        "hands": 2000,
+        "seed": 303,
+        "chips_per_hand": 0.0,
+        "approx_95pct_half_width": 0.0,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2326,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.208,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2326,
+            "median_us": 0.042,
+            "p99_us": 0.084,
+            "max_us": 0.209,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 303,
+        "chips_per_hand": -0.0005,
+        "approx_95pct_half_width": 0.025322461702343774,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2266,
+            "median_us": 0.083,
+            "p99_us": 0.166,
+            "max_us": 1.083,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2386,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.25,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": -0.0005
+    },
+    {
+      "opponent": "cautious",
+      "seed": 404,
+      "baseline": {
+        "hands": 2000,
+        "seed": 404,
+        "chips_per_hand": 0.0,
+        "approx_95pct_half_width": 0.0,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2353,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.25,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2353,
+            "median_us": 0.042,
+            "p99_us": 0.125,
+            "max_us": 0.167,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 404,
+        "chips_per_hand": -0.017,
+        "approx_95pct_half_width": 0.023467213036227546,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2301,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.5,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2394,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.209,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": -0.017
+    },
+    {
+      "opponent": "cautious",
+      "seed": 505,
+      "baseline": {
+        "hands": 2000,
+        "seed": 505,
+        "chips_per_hand": 0.0,
+        "approx_95pct_half_width": 0.0,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2323,
+            "median_us": 0.042,
+            "p99_us": 0.084,
+            "max_us": 0.167,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2323,
+            "median_us": 0.042,
+            "p99_us": 0.084,
+            "max_us": 0.125,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 505,
+        "chips_per_hand": 0.013,
+        "approx_95pct_half_width": 0.025592939810974616,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2268,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.375,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2379,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.167,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": 0.013
+    },
+    {
+      "opponent": "calling",
+      "seed": 101,
+      "baseline": {
+        "hands": 2000,
+        "seed": 101,
+        "chips_per_hand": 0.335,
+        "approx_95pct_half_width": 0.014579334586907602,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2000,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.125,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2337,
+            "median_us": 0.042,
+            "p99_us": 0.084,
+            "max_us": 0.334,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 101,
+        "chips_per_hand": 0.24,
+        "approx_95pct_half_width": 0.020697406181031906,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2000,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.417,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2423,
+            "median_us": 0.042,
+            "p99_us": 0.084,
+            "max_us": 0.333,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": -0.09500000000000003
+    },
+    {
+      "opponent": "calling",
+      "seed": 202,
+      "baseline": {
+        "hands": 2000,
+        "seed": 202,
+        "chips_per_hand": 0.3405,
+        "approx_95pct_half_width": 0.014451476768164022,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2000,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.208,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2343,
+            "median_us": 0.042,
+            "p99_us": 0.084,
+            "max_us": 5.5,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 202,
+        "chips_per_hand": 0.231,
+        "approx_95pct_half_width": 0.020626590572332567,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2000,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.416,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2457,
+            "median_us": 0.042,
+            "p99_us": 0.084,
+            "max_us": 0.208,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": -0.10950000000000001
+    },
+    {
+      "opponent": "calling",
+      "seed": 303,
+      "baseline": {
+        "hands": 2000,
+        "seed": 303,
+        "chips_per_hand": 0.336,
+        "approx_95pct_half_width": 0.014556765637524926,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2000,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.167,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2326,
+            "median_us": 0.042,
+            "p99_us": 0.084,
+            "max_us": 0.125,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 303,
+        "chips_per_hand": 0.218,
+        "approx_95pct_half_width": 0.021657609601561698,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2000,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.459,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2434,
+            "median_us": 0.042,
+            "p99_us": 0.084,
+            "max_us": 0.166,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": -0.11800000000000002
+    },
+    {
+      "opponent": "calling",
+      "seed": 404,
+      "baseline": {
+        "hands": 2000,
+        "seed": 404,
+        "chips_per_hand": 0.3465,
+        "approx_95pct_half_width": 0.014301419194995573,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2000,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.125,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2353,
+            "median_us": 0.042,
+            "p99_us": 0.084,
+            "max_us": 0.125,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 404,
+        "chips_per_hand": 0.2525,
+        "approx_95pct_half_width": 0.02037851991863174,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2000,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.417,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2443,
+            "median_us": 0.042,
+            "p99_us": 0.084,
+            "max_us": 0.125,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": -0.09399999999999997
+    },
+    {
+      "opponent": "calling",
+      "seed": 505,
+      "baseline": {
+        "hands": 2000,
+        "seed": 505,
+        "chips_per_hand": 0.3295,
+        "approx_95pct_half_width": 0.014698168721434647,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2000,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.208,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2323,
+            "median_us": 0.042,
+            "p99_us": 0.084,
+            "max_us": 0.167,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 505,
+        "chips_per_hand": 0.2115,
+        "approx_95pct_half_width": 0.02236014679210663,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2000,
+            "median_us": 0.083,
+            "p99_us": 0.166,
+            "max_us": 0.625,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2438,
+            "median_us": 0.042,
+            "p99_us": 0.084,
+            "max_us": 0.167,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": -0.11800000000000002
+    },
+    {
+      "opponent": "random",
+      "seed": 101,
+      "baseline": {
+        "hands": 2000,
+        "seed": 101,
+        "chips_per_hand": 0.0585,
+        "approx_95pct_half_width": 0.03151801500205336,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2320,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.167,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2163,
+            "median_us": 0.166,
+            "p99_us": 0.292,
+            "max_us": 0.75,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 101,
+        "chips_per_hand": 0.15,
+        "approx_95pct_half_width": 0.03195255491765522,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2261,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.417,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2201,
+            "median_us": 0.166,
+            "p99_us": 0.292,
+            "max_us": 0.5,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": 0.0915
+    },
+    {
+      "opponent": "random",
+      "seed": 202,
+      "baseline": {
+        "hands": 2000,
+        "seed": 202,
+        "chips_per_hand": 0.0565,
+        "approx_95pct_half_width": 0.03174474415050781,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2324,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.166,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2183,
+            "median_us": 0.166,
+            "p99_us": 0.292,
+            "max_us": 0.417,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 202,
+        "chips_per_hand": 0.1595,
+        "approx_95pct_half_width": 0.032743666307902645,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2271,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.458,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2229,
+            "median_us": 0.166,
+            "p99_us": 0.292,
+            "max_us": 0.417,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": 0.10300000000000001
+    },
+    {
+      "opponent": "random",
+      "seed": 303,
+      "baseline": {
+        "hands": 2000,
+        "seed": 303,
+        "chips_per_hand": 0.053,
+        "approx_95pct_half_width": 0.031203079620091678,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2321,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.167,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2173,
+            "median_us": 0.166,
+            "p99_us": 0.292,
+            "max_us": 0.5,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 303,
+        "chips_per_hand": 0.148,
+        "approx_95pct_half_width": 0.03489201407551955,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2270,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.375,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2249,
+            "median_us": 0.166,
+            "p99_us": 0.292,
+            "max_us": 0.5,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": 0.095
+    },
+    {
+      "opponent": "random",
+      "seed": 404,
+      "baseline": {
+        "hands": 2000,
+        "seed": 404,
+        "chips_per_hand": 0.0545,
+        "approx_95pct_half_width": 0.0320594712572949,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2325,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.125,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2174,
+            "median_us": 0.166,
+            "p99_us": 0.291,
+            "max_us": 0.459,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 404,
+        "chips_per_hand": 0.143,
+        "approx_95pct_half_width": 0.03336843679548377,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2297,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.416,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2247,
+            "median_us": 0.166,
+            "p99_us": 0.291,
+            "max_us": 0.459,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": 0.0885
+    },
+    {
+      "opponent": "random",
+      "seed": 505,
+      "baseline": {
+        "hands": 2000,
+        "seed": 505,
+        "chips_per_hand": 0.0245,
+        "approx_95pct_half_width": 0.03308481652789814,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2328,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.167,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2157,
+            "median_us": 0.166,
+            "p99_us": 0.291,
+            "max_us": 0.458,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "candidate": {
+        "hands": 2000,
+        "seed": 505,
+        "chips_per_hand": 0.159,
+        "approx_95pct_half_width": 0.03349312615895838,
+        "invalid_or_failed_actions": [
+          0,
+          0
+        ],
+        "timing": [
+          {
+            "decisions": 2291,
+            "median_us": 0.083,
+            "p99_us": 0.125,
+            "max_us": 0.416,
+            "over_1ms": 0
+          },
+          {
+            "decisions": 2203,
+            "median_us": 0.166,
+            "p99_us": 0.292,
+            "max_us": 0.459,
+            "over_1ms": 0
+          }
+        ]
+      },
+      "delta_chips_per_hand": 0.1345
+    }
+  ]
+}
