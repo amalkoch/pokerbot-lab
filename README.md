@@ -55,6 +55,43 @@ estimate. Choose evaluation seeds before comparing versions, keep fresh seeds
 for any policy tuning, and retain unfavorable results. Timings are observations
 on this local machine, not enforced deadlines or organizer-runtime compliance.
 
+## Equal requested training-time experiment
+
+With the optional research dependencies installed, run:
+
+```sh
+.venv/bin/python timed_training.py --seconds 0.2 --seeds 17 29 43
+```
+
+CFR, CFR+ and external-sampling MCCFR each receive the same requested **update
+loop** time on unofficial Kuhn and Leduc games. Construction and final exact
+exploitability evaluation are timed separately. Execution order rotates across
+three repeats. CFR variants are deterministic; only MCCFR uses the supplied
+random seeds. A deadline is checked between atomic solver updates, so the last
+update can overshoot; the tool reports actual elapsed time and overshoot.
+It does not interrupt work or enforce a one-millisecond gameplay deadline.
+
+[Recorded local example](timed_training_example.json), median exploitability
+(lower is better), three runs per cell:
+
+| Practice game | CFR | CFR+ | External MCCFR |
+| --- | ---: | ---: | ---: |
+| Kuhn | 0.00010745 | 0.00000974 | 0.00365477 |
+| Leduc | 0.25333873 | 0.07159431 | 0.28973930 |
+
+The largest measured budget overshoot was **5.36 ms**. All 18 runs retain
+iteration counts, setup/evaluation timings, environment metadata and results.
+This is a short local benchmark, not a universal algorithm ranking. Repeat with
+larger budgets and multiple runs; machine load changes the number of updates
+and therefore the final policies even with identical random seeds. Do not
+compare exploitability magnitudes across different games as if units matched.
+
+What to learn: more solver iterations need not mean a stronger strategy.
+Compare quality under a stated resource budget, and count setup and evaluation
+costs when planning a full build session. This uses public OpenSpiel practice
+games, not the event's unreleased variant or interface; importing prewritten
+code at the event still requires organizer confirmation.
+
 ## Poker math exercises
 
 Run `python3 poker_math.py` for worked examples. Import the functions from `poker_math` to try your own simulated-chip scenarios.
@@ -106,7 +143,7 @@ schedules, not the event's unreleased structure. See the reproducible output in
 
 ## Competition context
 
-The [official No Limit rules](https://pokerbot.sequoiacap.com/rules.html), checked October 30, 2026, describe a Python Agent interface supplied at the event, a 60-minute initial build phase, offline execution, and a one-millisecond decision limit. The poker variant is revealed on event day. The starter kit includes a simulator and ICM calculator. Six scored rounds have increasing weights.
+The [official No Limit rules](https://pokerbot.sequoiacap.com/rules.html), checked October 31, 2026, describe a Python Agent interface supplied at the event, a 60-minute initial build phase, offline execution, and a one-millisecond decision limit. The poker variant is revealed on event day. The starter kit includes a simulator and ICM calculator. Six scored rounds have increasing weights.
 
 This repository is preparation material, not an official starter kit or a ready-to-submit bot. Do not assume prewritten code can be brought into the competition; confirm that with the organizer. No unreleased event details belong here. No money is wagered in this lab.
 
@@ -126,7 +163,7 @@ See [RESEARCH.md](RESEARCH.md) for library and algorithm comparisons, reproducib
 
 ## Next increments
 
-- Compare solvers at equal wall-clock budgets across multiple seeds.
+- Repeat timed solver comparisons at larger budgets and evaluate exported policies against practice opponents.
 - Extend the binary risk exercise with explicitly modeled ties and sunk-pot states.
 - Add more practice opponents and constrained, legal-action adapters.
 - Run a timed 60-minute build drill; adapt to the official interface only when released.

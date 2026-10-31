@@ -79,6 +79,15 @@
       "report": "policy_comparison_example.json",
       "remote_status": "Verified commit URL recorded in .git/daily-progress.json after upload",
       "next": "Add equal wall-clock solver training budgets; current harness deliberately uses fixed hand counts."
+    },
+    {
+      "date": "2026-10-31",
+      "milestone": "Equal requested solver training budgets with explicit overshoot",
+      "checks": "45 tests passed in research environment; system Python: 36 passed, 9 optional skips; 18 real solver runs validated",
+      "report": "timed_training_example.json",
+      "result": "CFR+ lowest median exploitability in both practice games at 0.2-second requested budgets; max overshoot 5.36 ms; no general strength claim",
+      "remote_status": "Verified commit URL recorded in .git/daily-progress.json after upload",
+      "next": "Timed build drill and legal-action failure handling."
     }
   ]
 }
