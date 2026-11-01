@@ -6,7 +6,7 @@ Players see only their own card and public actions. Net payoffs are zero-sum.
 from dataclasses import dataclass
 from itertools import permutations
 import random
-from time import perf_counter_ns
+from decision_guard import guarded_decision
 from typing import Callable, Tuple
 
 LEGAL = {
@@ -69,25 +69,19 @@ def terminal_payoff(cards: Tuple[int, int], history: str) -> int:
     return stake if cards[0] > cards[1] else -stake
 
 
-def play_hand(cards, policies, rngs, timings=None, failures=None):
+def play_hand(cards, policies, rngs, timings=None, failures=None, deadline_ns=None):
     if len(cards) != 2 or len(set(cards)) != 2 or any(c not in (0, 1, 2) for c in cards):
         raise ValueError("Deal two distinct cards from 0, 1, 2")
     history = ""
     while history in LEGAL:
         seat = len(history) % 2
         obs = Observation(cards[seat], history, seat, LEGAL[history])
-        started = perf_counter_ns()
-        try:
-            action = policies[seat](obs, rngs[seat])
-        except Exception:
-            action = None
-        elapsed = perf_counter_ns() - started
+        decision = guarded_decision(policies[seat], obs, rngs[seat], deadline_ns)
+        action = decision['action']
         if timings is not None:
-            timings[seat].append(elapsed)
-        if action not in obs.legal_actions:
-            if failures is not None:
-                failures[seat] += 1
-            action = "check" if "check" in obs.legal_actions else "fold"
+            timings[seat].append(decision['elapsed_ns'])
+        if failures is not None and decision['used_fallback']:
+            failures[seat] += 1
         history += TOKEN[action]
     payoff = terminal_payoff(cards, history)
     return payoff, -payoff

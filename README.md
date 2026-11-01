@@ -92,6 +92,29 @@ costs when planning a full build session. This uses public OpenSpiel practice
 games, not the event's unreleased variant or interface; importing prewritten
 code at the event still requires organizer confirmation.
 
+## Decision failure drill
+
+Run `python3 decision_guard.py` for 60 deterministic fault-injection cases:
+all 12 card/history observations, each with a valid action, invalid return,
+exception, exactly-at-budget action and late action. The [example report](decision_guard_example.json)
+records 36 check/fold fallbacks, including 12 late decisions. The nanosecond
+values are **injected synthetic clock readings**, not performance measurements.
+
+The arena now shares `guarded_decision` for exception and legal-action handling.
+Non-string return objects cannot trigger arbitrary equality code during action
+validation. Optional `play_hand(..., deadline_ns=1_000_000)` rejects a late action
+**after the policy returns**; the default remains timing-only with no deadline.
+The guard reports exception, invalid action and lateness separately, and the
+arena counts each failed decision once. Exactly-at-budget is accepted in this
+practice model. The budget covers the policy call only, excluding validation,
+serialization and engine work.
+
+What to learn: a legal action can still arrive too late, and error handling must
+itself be robust. Prefer check when available, otherwise fold. This is not an
+isolated sandbox or a hard timeout: an infinite loop still blocks the caller,
+and prior policy side effects are not rolled back. No claim is made about the
+event's unreleased Agent interface or organizer hardware compliance.
+
 ## Poker math exercises
 
 Run `python3 poker_math.py` for worked examples. Import the functions from `poker_math` to try your own simulated-chip scenarios.
@@ -143,7 +166,7 @@ schedules, not the event's unreleased structure. See the reproducible output in
 
 ## Competition context
 
-The [official No Limit rules](https://pokerbot.sequoiacap.com/rules.html), checked October 31, 2026, describe a Python Agent interface supplied at the event, a 60-minute initial build phase, offline execution, and a one-millisecond decision limit. The poker variant is revealed on event day. The starter kit includes a simulator and ICM calculator. Six scored rounds have increasing weights.
+The [official No Limit rules](https://pokerbot.sequoiacap.com/rules.html), checked November 1, 2026, describe a Python Agent interface supplied at the event, a 60-minute initial build phase, offline execution, and a one-millisecond decision limit. The poker variant is revealed on event day. The starter kit includes a simulator and ICM calculator. Six scored rounds have increasing weights.
 
 This repository is preparation material, not an official starter kit or a ready-to-submit bot. Do not assume prewritten code can be brought into the competition; confirm that with the organizer. No unreleased event details belong here. No money is wagered in this lab.
 

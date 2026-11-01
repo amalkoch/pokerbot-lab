@@ -88,6 +88,14 @@
       "result": "CFR+ lowest median exploitability in both practice games at 0.2-second requested budgets; max overshoot 5.36 ms; no general strength claim",
       "remote_status": "Verified commit URL recorded in .git/daily-progress.json after upload",
       "next": "Timed build drill and legal-action failure handling."
+    },
+    {
+      "date": "2026-11-01",
+      "milestone": "Robust legal-action guard and synthetic deadline fault drill",
+      "checks": "52 tests passed in research environment; system Python 43 passed, 9 optional skips; 60 deterministic cases with 36 expected fallbacks",
+      "report": "decision_guard_example.json",
+      "remote_status": "Verified remote commit recorded in .git/daily-progress.json after upload",
+      "next": "60-minute unofficial build drill with explicit checkpoints."
     }
   ]
 }
