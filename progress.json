@@ -96,6 +96,15 @@
       "report": "decision_guard_example.json",
       "remote_status": "Verified remote commit recorded in .git/daily-progress.json after upload",
       "next": "60-minute unofficial build drill with explicit checkpoints."
+    },
+    {
+      "date": "2026-11-02",
+      "milestone": "Unofficial 60-minute build-drill checkpoint reviewer",
+      "checks": "57 tests passed in research environment; system Python 48 passed, 9 optional skips; CLI plan generated",
+      "report": "build_drill_plan.json",
+      "limitation": "Plan and log reviewer delivered; no real 60-minute session claimed; evidence remains self-reported",
+      "remote_status": "Verified commit URL recorded in .git/daily-progress.json after upload",
+      "next": "Run a fresh-seed candidate exercise using checkpoints; preserve rejection results."
     }
   ]
 }

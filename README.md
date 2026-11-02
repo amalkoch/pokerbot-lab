@@ -115,6 +115,39 @@ isolated sandbox or a hard timeout: an infinite loop still blocks the caller,
 and prior policy side effects are not rolled back. No claim is made about the
 event's unreleased Agent interface or organizer hardware compliance.
 
+## 60-minute build-drill checkpoints
+
+`python3 build_drill.py` prints an empty unofficial practice plan. Use your own
+session timer; this tool neither waits nor runs a background clock. No full
+60-minute drill has been completed by generating [this plan](build_drill_plan.json).
+
+| Minute | Checkpoint | Evidence to keep |
+| --- | --- | --- |
+| 10 | baseline | Runnable baseline and completed practice match |
+| 20 | legality | Failure tests and local timing report |
+| 35 | candidate | One strategy change; baseline preserved |
+| 50 | holdout | Fresh-seed results across multiple opponents, including losses |
+| 60 | freeze | Final tests, exact code hash and keep/reject decision |
+
+Keep a local JSON log with actual elapsed minutes and evidence references:
+
+```json
+[{"checkpoint":"baseline","minute":8,"evidence":"local match log path"}]
+```
+
+That entry is a **schema example**, not a claim that a session occurred. Review
+an actual log with `python3 build_drill.py --log /path/to/local-log.json --elapsed 25`.
+The tool distinguishes on-time, late, overdue and pending work, rejects duplicate
+or future entries, and never treats timer expiry as successful completion.
+Evidence is self-reported: the tool does not open referenced files or certify
+that tests passed. Keep private session logs outside the public repository.
+
+What to learn: preserve a working baseline early and reserve time to evaluate
+and freeze code. A rejected candidate is a valid outcome; a missing evaluation
+is not. These checkpoints are our practice schedule, not organizer requirements.
+Use the event's provided interface when released; prewritten-code permission
+still needs organizer confirmation. This tool uploads or submits nothing.
+
 ## Poker math exercises
 
 Run `python3 poker_math.py` for worked examples. Import the functions from `poker_math` to try your own simulated-chip scenarios.
@@ -166,7 +199,7 @@ schedules, not the event's unreleased structure. See the reproducible output in
 
 ## Competition context
 
-The [official No Limit rules](https://pokerbot.sequoiacap.com/rules.html), checked November 1, 2026, describe a Python Agent interface supplied at the event, a 60-minute initial build phase, offline execution, and a one-millisecond decision limit. The poker variant is revealed on event day. The starter kit includes a simulator and ICM calculator. Six scored rounds have increasing weights.
+The [official No Limit rules](https://pokerbot.sequoiacap.com/rules.html), checked November 2, 2026, describe a Python Agent interface supplied at the event, a 60-minute initial build phase, offline execution, and a one-millisecond decision limit. The poker variant is revealed on event day. The starter kit includes a simulator and ICM calculator. Six scored rounds have increasing weights.
 
 This repository is preparation material, not an official starter kit or a ready-to-submit bot. Do not assume prewritten code can be brought into the competition; confirm that with the organizer. No unreleased event details belong here. No money is wagered in this lab.
 

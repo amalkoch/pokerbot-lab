@@ -1,0 +1,46 @@
+{
+  "practice_only": true,
+  "evidence_verified": false,
+  "elapsed_minutes": 0.0,
+  "remaining_minutes": 60.0,
+  "session_finished": false,
+  "all_checkpoints_recorded": false,
+  "all_on_time": false,
+  "checkpoints": [
+    {
+      "checkpoint": "baseline",
+      "deadline_minutes": 10,
+      "goal": "Runnable baseline and one completed practice match",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "checkpoint": "legality",
+      "deadline_minutes": 20,
+      "goal": "Legal-action and failure tests, with local timing report",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "checkpoint": "candidate",
+      "deadline_minutes": 35,
+      "goal": "One strategy change and a preserved baseline",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "checkpoint": "holdout",
+      "deadline_minutes": 50,
+      "goal": "Fresh-seed comparisons against multiple opponents; retain losses",
+      "status": "pending",
+      "evidence": null
+    },
+    {
+      "checkpoint": "freeze",
+      "deadline_minutes": 60,
+      "goal": "Final tests, exact code hash and decision to keep or reject candidate",
+      "status": "pending",
+      "evidence": null
+    }
+  ]
+}
