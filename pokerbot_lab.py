@@ -53,8 +53,20 @@ def mixed(obs: Observation, rng: random.Random) -> str:
     return "check"
 
 
+def low_bluff(obs: Observation, rng: random.Random) -> str:
+    """Experimental mixed-policy variant: halve jack bluffs; keep calls fixed.
+
+    Practice-only hypothesis, not an equilibrium or recommended default.
+    """
+    if "call" in obs.legal_actions:
+        return "call" if obs.card == 2 or (obs.card == 1 and rng.random() < 0.5) else "fold"
+    if obs.card == 2 or (obs.card == 0 and rng.random() < 1 / 6):
+        return "bet"
+    return "check"
+
+
 POLICIES = {"cautious": cautious, "calling": calling_station,
-            "random": random_policy, "mixed": mixed}
+            "random": random_policy, "mixed": mixed, "low_bluff": low_bluff}
 
 
 def terminal_payoff(cards: Tuple[int, int], history: str) -> int:

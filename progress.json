@@ -105,6 +105,15 @@
       "limitation": "Plan and log reviewer delivered; no real 60-minute session claimed; evidence remains self-reported",
       "remote_status": "Verified commit URL recorded in .git/daily-progress.json after upload",
       "next": "Run a fresh-seed candidate exercise using checkpoints; preserve rejection results."
+    },
+    {
+      "date": "2026-11-04",
+      "milestone": "Frozen lower-bluff candidate tested and rejected for default promotion",
+      "checks": "57 tests passed including expanded five-policy legality coverage; 120000 hands; zero invalid/failed actions",
+      "report": "low_bluff_holdout.json",
+      "result": "Calling +0.05950, cautious -0.04425, random -0.02580 chips/hand versus mixed; mixed default retained",
+      "remote_status": "Verified commit URL recorded in .git/daily-progress.json after upload",
+      "next": "Evaluate against stronger practice policies; use fresh evaluation seeds."
     }
   ]
 }

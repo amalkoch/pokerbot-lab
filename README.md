@@ -11,7 +11,7 @@ python3 -m pokerbot_lab --agent mixed --opponent cautious --pairs 5000 --seed 42
 python3 -m unittest -v
 ```
 
-Choose `mixed`, `cautious`, `calling`, or `random`. Results report net chips per hand, an approximate 95% confidence interval half-width, invalid/failed actions, and local decision timing. Each deal is played with the agents in both seats. Random seeds reproduce scores, not execution times.
+Choose `mixed`, `cautious`, `calling`, `random`, or experimental `low_bluff`. Results report net chips per hand, an approximate 95% confidence interval half-width, invalid/failed actions, and local decision timing. Each deal is played with the agents in both seats. Random seeds reproduce scores, not execution times.
 
 ## The practice game
 
@@ -148,6 +148,37 @@ is not. These checkpoints are our practice schedule, not organizer requirements.
 Use the event's provided interface when released; prewritten-code permission
 still needs organizer confirmation. This tool uploads or submits nothing.
 
+## Candidate exercise: fewer bluffs
+
+`low_bluff` halves the mixed policy's jack betting probability from 1/3 to 1/6,
+leaving other decisions unchanged. The hypothesis, five fresh seeds and the
+promotion rule were fixed before inspecting results. To promote, the candidate
+needed a positive equal-weight pool mean and no negative opponent-level mean.
+This is a conservative practice rule, not a statistical proof of superiority.
+
+```sh
+python3 compare_policies.py --candidate low_bluff --baseline mixed --opponents cautious calling random --seeds 1101 1102 1103 1104 1105 --pairs 2000
+```
+
+[Saved evaluation](low_bluff_holdout.json): 120,000 total hands; zero invalid or
+failed actions. Candidate-minus-baseline net chips per hand:
+
+| Opponent | Difference |
+| --- | ---: |
+| cautious | -0.04425 |
+| calling | +0.05950 |
+| random | -0.02580 |
+
+Pool mean: **-0.00352**, descriptive seed-block standard error **0.00218**.
+Decision: **do not promote**; `mixed` remains the default. `low_bluff` stays
+available as an experimental comparison policy. Source hashes are included in
+the saved report; future RNG/timing details can change if code changes.
+
+What to learn: reducing bluffs helps against a caller but sacrifices value from
+folds elsewhere. Do not tune again on these now-used holdout seeds. Five seed
+blocks and weak practice opponents do not establish tournament strength. This
+was a bounded candidate exercise, not a completed 60-minute build session.
+
 ## Poker math exercises
 
 Run `python3 poker_math.py` for worked examples. Import the functions from `poker_math` to try your own simulated-chip scenarios.
@@ -199,7 +230,7 @@ schedules, not the event's unreleased structure. See the reproducible output in
 
 ## Competition context
 
-The [official No Limit rules](https://pokerbot.sequoiacap.com/rules.html), checked November 2, 2026, describe a Python Agent interface supplied at the event, a 60-minute initial build phase, offline execution, and a one-millisecond decision limit. The poker variant is revealed on event day. The starter kit includes a simulator and ICM calculator. Six scored rounds have increasing weights.
+The [official No Limit rules](https://pokerbot.sequoiacap.com/rules.html), checked November 4, 2026, describe a Python Agent interface supplied at the event, a 60-minute initial build phase, offline execution, and a one-millisecond decision limit. The poker variant is revealed on event day. The starter kit includes a simulator and ICM calculator. Six scored rounds have increasing weights.
 
 This repository is preparation material, not an official starter kit or a ready-to-submit bot. Do not assume prewritten code can be brought into the competition; confirm that with the organizer. No unreleased event details belong here. No money is wagered in this lab.
 
