@@ -254,3 +254,22 @@ See [RESEARCH.md](RESEARCH.md) for library and algorithm comparisons, reproducib
 - Extend the binary risk exercise with explicitly modeled ties and sunk-pot states.
 - Add more practice opponents and constrained, legal-action adapters.
 - Run a timed 60-minute build drill; adapt to the official interface only when released.
+
+## Exact best responses in Kuhn poker
+
+Run `python3 kuhn_response.py` to evaluate the fixed probability tables for
+`mixed` and `low_bluff`. For each seat, the evaluator tries all 64 deterministic
+responses across all six equally likely deals. Each decision uses the
+responder's own card and the public betting history. All payoffs use exact
+fractions and simulated chips.
+
+| Practice strategy | Opponent plays first | Opponent plays second | Opponent gain per hand, equal seats |
+| --- | ---: | ---: | ---: |
+| mixed | −1/36 | 1/9 | 1/24 |
+| low_bluff | 1/36 | 5/36 | 1/12 |
+
+Halving the jack bluff rate helped against the calling baseline in the sampled
+experiment above. Against an opponent who knows the fixed strategy and responds
+optimally, the same change doubles the opponent's expected gain. These figures
+apply to the specified two-player Kuhn tables. Update the tables when changing
+a policy's action probabilities.
