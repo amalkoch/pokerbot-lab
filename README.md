@@ -273,3 +273,8 @@ experiment above. Against an opponent who knows the fixed strategy and responds
 optimally, the same change doubles the opponent's expected gain. These figures
 apply to the specified two-player Kuhn tables. Update the tables when changing
 a policy's action probabilities.
+
+The test suite checks both executable policies against these tables in all
+24 policy/card/history combinations. It probes the endpoints and both sides
+of each probability threshold, including equality. A changed bluff or call
+threshold should fail this check until the analysis table is reviewed.
