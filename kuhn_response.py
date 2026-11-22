@@ -1,4 +1,5 @@
 """Exact best responses to fixed strategy tables in unofficial Kuhn practice."""
+from collections.abc import Mapping
 from fractions import Fraction
 from itertools import permutations, product
 
@@ -12,10 +13,35 @@ def baseline(jack_bet):
     return {"": bet, "k": bet, "b": call, "kb": call}
 
 
+def validated_profile(profile):
+    """Copy a complete table to fractions, preserving each float's binary value."""
+    if not isinstance(profile, Mapping) or set(profile) != set(LEGAL):
+        raise ValueError("profile must contain exactly the four legal histories")
+    result = {}
+    for history in LEGAL:
+        row = profile[history]
+        if not isinstance(row, (tuple, list)) or len(row) != 3:
+            raise ValueError(f"{history!r} must have three card probabilities")
+        values = []
+        for value in row:
+            if isinstance(value, bool) or not isinstance(value, (int, float, Fraction)):
+                raise ValueError("probabilities must be integers, floats, or Fractions")
+            try:
+                probability = Fraction(value)
+            except (ValueError, OverflowError) as error:
+                raise ValueError("probabilities must be finite") from error
+            if not 0 <= probability <= 1:
+                raise ValueError("probabilities must be between zero and one")
+            values.append(probability)
+        result[history] = tuple(values)
+    return result
+
+
 def best_response_value(profile, seat):
     """Maximum responder chips per hand over legal pure plans for one seat."""
-    if seat not in (0, 1):
+    if type(seat) is not int or seat not in (0, 1):
         raise ValueError("seat must be 0 or 1")
+    profile = validated_profile(profile)
     histories = [h for h in LEGAL if len(h) % 2 == seat]
     keys = list(product(histories, range(3)))
 

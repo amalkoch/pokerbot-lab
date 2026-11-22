@@ -278,3 +278,9 @@ The test suite checks both executable policies against these tables in all
 24 policy/card/history combinations. It probes the endpoints and both sides
 of each probability threshold, including equality. A changed bluff or call
 threshold should fail this check until the analysis table is reviewed.
+
+The response evaluator requires all four histories and three probabilities
+per history, each between zero and one. It accepts integers, finite floats,
+and fractions, and rejects malformed tables before evaluation. Floats retain
+their exact binary value when converted to fractions. Use `Fraction(1, 3)`
+for an exact one-third probability. Seats are integer 0 or 1.

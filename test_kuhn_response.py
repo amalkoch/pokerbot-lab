@@ -42,3 +42,27 @@ class ResponseTest(unittest.TestCase):
                             rng.random.return_value = draw
                             expected = actions[int(draw < probability)]
                             self.assertEqual(policy(observation, rng), expected)
+
+    def test_invalid_profiles_and_seats_are_rejected(self):
+        valid = baseline(Fraction(1, 3))
+        invalid = [None, {}, {**valid, "extra": (0, 0, 0)}]
+        for row in ((0, 1), (0, 0, 0, 0), None,
+                    (-0.1, 0, 1), (1.1, 0, 1), (float("nan"), 0, 1),
+                    (float("inf"), 0, 1), ("0.5", 0, 1), (True, 0, 1)):
+            invalid.append({**valid, "": row})
+        for profile in invalid:
+            with self.subTest(profile=profile), self.assertRaises(ValueError):
+                best_response_value(profile, 0)
+        for seat in (True, 0.0, -1, 2, None):
+            with self.subTest(seat=seat), self.assertRaises(ValueError):
+                best_response_value(valid, seat)
+
+    def test_float_profiles_are_supported_without_mutating_input(self):
+        profile = dict.fromkeys(("", "k", "b", "kb"), [0.5, 0.5, 0.5])
+        rational = dict.fromkeys(("", "k", "b", "kb"),
+                                 (Fraction(1, 2),) * 3)
+        before = {history: list(row) for history, row in profile.items()}
+        for seat in (0, 1):
+            self.assertEqual(best_response_value(profile, seat),
+                             best_response_value(rational, seat))
+        self.assertEqual(profile, before)
