@@ -21,6 +21,9 @@ Agents receive only their card, seat, public history, and legal actions. Public 
 
 The hand-written policies are teaching baselines, not optimal strategies. Winning against one weak opponent is not evidence of tournament strength. Confidence intervals summarize sampled paired deals; they do not account for every source of uncertainty or adaptively changing opponents.
 
+For a complete sequence with expected outputs and sign conventions, follow
+[the evaluation walkthrough](EVALUATION.md).
+
 ## First exercise
 
 1. Run `mixed` against all three other policies using the same seed.
