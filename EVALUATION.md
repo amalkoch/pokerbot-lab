@@ -77,3 +77,56 @@ results to the specified Kuhn model and fixed policies.
 Verified on November 23, 2026 with 120,000 hands, zero action failures and the
 exact values above. The minimal-environment suite ran 62 tests with nine
 optional research skips.
+
+## Sensitivity to the opponent population
+
+Let q be the fraction of calling opponents and split the remaining weight
+ equally between cautious and random. Using the saved comparison, the estimated
+low_bluff advantage in simulated chips per hand is
+
+    delta(q) = q * 0.05950 + (1-q) * (-0.04425 - 0.02580) / 2
+             = -0.035025 + 0.094525 * q
+
+The estimated mean crosses zero at q = 0.370537, or about 37.05% callers.
+This crossing assumes the remaining two opponent types have equal weights.
+
+| Caller share | Estimated low_bluff minus mixed | Seed-block standard error |
+| --- | ---: | ---: |
+| 0% | -0.035025 | 0.003588 |
+| Exactly one third | -0.003517 | 0.002184 |
+| 50% | +0.0122375 | 0.001624 |
+| 100% | +0.059500 | 0.001975 |
+
+Reproduce these values from the saved records:
+
+```sh
+python3 - <<'PY'
+import json
+import statistics
+
+with open('low_bluff_holdout.json') as source:
+    report = json.load(source)
+
+for q in (0, 1 / 3, 0.5, 1):
+    weights = {'calling': q, 'cautious': (1-q)/2, 'random': (1-q)/2}
+    blocks = [
+        sum(weights[row['opponent']] * row['delta_chips_per_hand']
+            for row in report['records'] if row['seed'] == seed)
+        for seed in report['seeds']
+    ]
+    mean = statistics.mean(blocks)
+    error = statistics.stdev(blocks) / len(blocks) ** 0.5
+    print(f'{q:.6f}: delta={mean:.7f}, standard_error={error:.6f}')
+PY
+```
+
+Weight the observations within each seed before estimating uncertainty. This
+retains dependence between opponent comparisons sharing a deal seed. Five
+seed blocks provide a descriptive standard error. The 37.05% crossing is a
+point estimate from this sample, with uncertainty in its location.
+
+This retrospective sensitivity exercise uses the existing 120,000-hand report.
+The weights describe hypothetical populations. Choosing a candidate requires
+evidence about the actual opponent population and fresh evaluation data.
+Changing weights after inspecting results also changes the evaluation
+objective, so record that choice explicitly.
