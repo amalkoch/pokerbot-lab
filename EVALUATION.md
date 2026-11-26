@@ -81,7 +81,7 @@ optional research skips.
 ## Sensitivity to the opponent population
 
 Let q be the fraction of calling opponents and split the remaining weight
- equally between cautious and random. Using the saved comparison, the estimated
+equally between cautious and random. Using the saved comparison, the estimated
 low_bluff advantage in simulated chips per hand is
 
     delta(q) = q * 0.05950 + (1-q) * (-0.04425 - 0.02580) / 2
@@ -130,3 +130,54 @@ The weights describe hypothetical populations. Choosing a candidate requires
 evidence about the actual opponent population and fresh evaluation data.
 Changing weights after inspecting results also changes the evaluation
 objective, so record that choice explicitly.
+
+### Influence of individual seed blocks
+
+Leave out one seed block at a time, including all three opponents for that
+seed, then recompute the caller-share crossing from the remaining four blocks.
+This measures how much each observed block influences the estimated threshold.
+
+| Omitted seed | Caller share at zero estimated advantage |
+| --- | ---: |
+| 1101 | 38.781950% |
+| 1102 | 37.483266% |
+| 1103 | 35.609103% |
+| 1104 | 36.522600% |
+| 1105 | 36.770692% |
+
+```sh
+python3 - <<'PY'
+import json
+import statistics
+
+with open('low_bluff_holdout.json') as source:
+    report = json.load(source)
+
+for omitted in report['seeds']:
+    means = {
+        opponent: statistics.mean(
+            row['delta_chips_per_hand'] for row in report['records']
+            if row['opponent'] == opponent and row['seed'] != omitted)
+        for opponent in report['opponents']
+    }
+    other = (means['cautious'] + means['random']) / 2
+    slope = means['calling'] - other
+    if slope == 0:
+        print(omitted, 'No unique crossing')
+        continue
+    crossing = -other / slope
+    if 0 <= crossing <= 1:
+        residual = crossing * means['calling'] + (1-crossing) * other
+        assert abs(residual) < 1e-12
+        print(f'{omitted}: {crossing:.6%}')
+    else:
+        print(omitted, 'Crossing outside feasible caller shares')
+PY
+```
+
+Removing a single block moves the estimate between 35.61% and 38.78%.
+That range describes this leave-one-block-out exercise only. A confidence
+interval would require a justified statistical procedure and assumptions.
+The five calculations overlap heavily because each retains four of the same
+five original blocks. Keep the full-sample estimate alongside this diagnostic
+and collect fresh blocks to investigate sampling uncertainty further.
