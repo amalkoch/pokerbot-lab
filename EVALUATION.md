@@ -181,3 +181,41 @@ interval would require a justified statistical procedure and assumptions.
 The five calculations overlap heavily because each retains four of the same
 five original blocks. Keep the full-sample estimate alongside this diagnostic
 and collect fresh blocks to investigate sampling uncertainty further.
+
+## Replication on 20 additional seeds
+
+On November 27, the same fixed policies were evaluated using seeds 2701–2720,
+2,000 paired deals per match, and the same three opponents. The seed range
+and hand count were chosen before running this replication. The
+[full report](results/low_bluff_replication.json) retains all 60 opponent/seed
+records, local timings, source revision and SHA-256 hashes.
+
+| Opponent | Mean low_bluff minus mixed | Seed-block standard error |
+| --- | ---: | ---: |
+| cautious | -0.0407875 | 0.0008684 |
+| calling | +0.0553500 | 0.0004968 |
+| random | -0.0188375 | 0.0032413 |
+| Equal-weight pool | -0.0014250 | 0.0010701 |
+
+All 480,000 simulated hands completed with zero invalid/failed actions.
+The direction of each opponent-level mean matches the original experiment.
+The pool difference is small relative to its uncertainty, so the sample alone
+provides limited evidence about the sign of the pool's expected advantage.
+The exact Kuhn response calculation remains a separate evaluation objective.
+
+Reproduce the sampled comparison from the repository root:
+
+```sh
+python3 - <<'PY'
+import json
+from compare_policies import compare
+result = compare('low_bluff', 'mixed', ['cautious', 'calling', 'random'],
+                 range(2701, 2721), pairs=2000)
+print(json.dumps(result, indent=2))
+PY
+```
+
+The report is a fixed-policy replication. These seeds are now observed and
+should be treated as development data if used to choose future policy changes.
+Timing values depend on the local machine. The results describe unofficial
+Kuhn practice against the specified opponents.
