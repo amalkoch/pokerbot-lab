@@ -219,3 +219,33 @@ The report is a fixed-policy replication. These seeds are now observed and
 should be treated as development data if used to choose future policy changes.
 Timing values depend on the local machine. The results describe unofficial
 Kuhn practice against the specified opponents.
+
+## Exact expected values against the fixed opponents
+
+Run `python3 kuhn_matchup.py` to enumerate the six deals and all action
+branches using the declared probability tables and exact fractions. The
+candidate's result averages its two seats. This calculation assumes each
+policy follows its table independently at every decision.
+
+| Opponent | Exact low_bluff minus mixed | 20-seed replication estimate |
+| --- | ---: | ---: |
+| cautious | -1/24 = -0.04166667 | -0.0407875 |
+| calling | 1/18 = +0.05555556 | +0.0553500 |
+| random | -1/48 = -0.02083333 | -0.0188375 |
+| Equal-weight pool | -1/432 = -0.00231481 | -0.0014250 |
+
+The replication's pool estimate is about 0.00088981 chips per hand above the
+exact value, compared with its descriptive standard error of 0.00107009.
+The exact calculation establishes a small negative pool advantage under these
+specific tables and equal opponent weights. This comparison supplies a check
+on the simulation's sampling error.
+
+Using the exact opponent values, the caller-share crossing with equal weights
+on the other two types is 9/25, or 36%. The earlier 37.05% estimate and its
+leave-one-block-out values illustrate variation from sampled deals and actions.
+The opponent population assumptions still determine which comparison applies.
+
+Tests compare deterministic table matchups with the practice engine over all
+six deals, check the equilibrium value of -1/18 for the first seat, and check
+seat-swapping signs. The tables for these fixed opponents are explicit in
+`kuhn_matchup.py` and should be reviewed if their executable policies change.
